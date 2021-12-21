@@ -5,6 +5,7 @@
 """ cuda 버전 : 11.2 """
 """ pytorch 버전 : 1.9.1 """
 
+""" 2021-12-21 Test"""
 path = "D:/From_Github/planetoid-master/data"
 
 import torch
