@@ -20,7 +20,7 @@ parser.add_argument('--model_file', help = 'filename for saving models', type = 
 parser.add_argument('--use_feature', help = 'whether use input features', type = bool, default = True)
 parser.add_argument('--update_emb', help = 'whether update embedding when optimizing supervised loss', type = bool, default = True)
 parser.add_argument('--layer_loss', help = 'whether incur loss on hidden layers', type = bool, default = True)
-args = parser.parse_args()
+args = parser.parse_args("")
 
 def comp_accu(tpy, ty):
     import numpy as np
