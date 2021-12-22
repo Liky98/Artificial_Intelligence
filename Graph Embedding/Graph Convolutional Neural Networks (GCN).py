@@ -55,9 +55,9 @@ args = easydict.EasyDict({'dataset': 'pubmed',
 
 names = ['x', 'y', 'tx', 'ty', 'allx', 'ally', 'graph']
 objects = []
-
+path = 'C:/Users/LeeKihoon/PycharmProjects/KKK/Graph Embedding/planetoid-master/data'
 for i in range(len(names)):  # 각 파일들을 열고 pickle모듈을 이용해 serialized된 데이터를 파싱한다.
-    with open("Graph Embedding/planetoid-master/data/ind.{}.{}".format(args.dataset, names[i]), 'rb') as f:
+    with open(path+"/ind.{}.{}".format(args.dataset, names[i]), 'rb') as f:
         objects.append(pkl.load(f, encoding='latin1'))
 
 print(len(objects))  # 7이 잘 나온다.
@@ -73,7 +73,7 @@ def parse_index_file(filename):  # 테스트데이터의 index를 담고 있는 
 
 x, y, tx, ty, allx, ally, graph = tuple(objects)  # 튜플로 변환하고 7개의 데이터를 나눈다.
 
-test_idx_reorder = parse_index_file("Graph Embedding/planetoid-master/data/ind.{}.test.index".format(args.dataset))
+test_idx_reorder = parse_index_file(path+"/ind.{}.test.index".format(args.dataset))
 test_idx_range = np.sort(test_idx_reorder)  # 테스트데이터의 index를 오름차순 정렬한다.
 
 features = sp.vstack((allx, tx)).tolil()  # train데이터와 테스트데이터를 하나의 matrix로 결합하고 LInked List format으로 변환
