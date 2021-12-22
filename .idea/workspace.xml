@@ -4,57 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="211216">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/base_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.citeseer.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.cora.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/ind.pubmed.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.citeseer.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.citeseer.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.citeseer.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.citeseer.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.citeseer.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.cora.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.cora.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.cora.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.cora.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.cora.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.pubmed.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.pubmed.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.pubmed.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.pubmed.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/data/trans.pubmed.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/ind_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_ind.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/trans_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/KKK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KKK.iml" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="주석 수정">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/samples/안.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/graph_dataset 분석.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/graph_dataset 분석.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +45,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -102,7 +57,51 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.graph_dataset 분석">
+  <component name="RunManager" selected="Python.성민이도와주기">
+    <configuration name="성민이도와주기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/etc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etc/성민이도와주기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="파이토치_CUDA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/파이토치_CUDA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +161,26 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="test_trans.py 내 Python 테스트" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.성민이도와주기" />
+        <item itemvalue="Python 테스트.test_trans.py 내 Python 테스트" />
+        <item itemvalue="Python.파이토치_CUDA" />
         <item itemvalue="Python.graph_dataset 분석" />
         <item itemvalue="Python 테스트.test_ind.py 내 Python 테스트" />
       </list>
@@ -180,7 +197,11 @@
       <workItem from="1639470899888" duration="7000" />
       <workItem from="1639551313688" duration="2618000" />
       <workItem from="1639632084010" duration="3433000" />
-      <workItem from="1639639425693" duration="1287000" />
+      <workItem from="1639639425693" duration="2657000" />
+      <workItem from="1639643712869" duration="712000" />
+      <workItem from="1639655662120" duration="3089000" />
+      <workItem from="1640074774010" duration="35000" />
+      <workItem from="1640148482374" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -203,7 +224,42 @@
       <option name="project" value="LOCAL" />
       <updated>1639632586981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="211216">
+      <created>1639642175028</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639642175028</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pytorch Cuda GPU설정">
+      <created>1639644386328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639644386328</updated>
+    </task>
+    <task id="LOCAL-00006" summary="etc">
+      <created>1639978760994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639978760994</updated>
+    </task>
+    <task id="LOCAL-00007" summary="211220 코드작성">
+      <created>1639978776032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639978776033</updated>
+    </task>
+    <task id="LOCAL-00008" summary="주석 수정">
+      <created>1640074798318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640074798318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,10 +282,14 @@
     <MESSAGE value="Test" />
     <MESSAGE value="기존 작업 파일" />
     <MESSAGE value="211216" />
-    <option name="LAST_COMMIT_MESSAGE" value="211216" />
+    <MESSAGE value="pytorch Cuda GPU설정" />
+    <MESSAGE value="etc" />
+    <MESSAGE value="211220 코드작성" />
+    <MESSAGE value="주석 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="주석 수정" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1639639101832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
-    <SUITE FILE_PATH="coverage/KKK$.coverage" NAME=" 커버리지 결과" MODIFIED="1639634354037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
+    <SUITE FILE_PATH="coverage/KKK$.coverage" NAME=" 커버리지 결과" MODIFIED="1639973785247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
   </component>
 </project>
