@@ -11,8 +11,9 @@ import numpy as np
 import torch
 import _pickle as cPickle
 
-path = "Graph Embedding/planetoid-master/data"
-cPickle.load(open(path+"/ind.citeseer.allx", 'wb',encoding='ISO-8859-1'))
+path = 'C:/Users/LeeKihoon/PycharmProjects/KKK/Graph Embedding/planetoid-master/data'
+
+cPickle.load(open(path+"/ind.citeseer.x",'rb','latin1'))
 
 #%%
 """ 2021-12-20"""

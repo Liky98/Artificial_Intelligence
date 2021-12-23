@@ -29,8 +29,15 @@ def comp_accu(tpy, ty):
 # load the data: x, y, tx, ty, allx, graph
 NAMES = ['x', 'y', 'tx', 'ty', 'allx', 'graph']
 OBJECTS = []
-for i in range(len(NAMES)):
-    OBJECTS.append(cPickle.load(open("data/ind.{}.{}".format(DATASET, NAMES[i]),encoding='unicode_escape')))
+# ###
+path = 'C:/Users/LeeKihoon/PycharmProjects/KKK/Graph Embedding/planetoid-master/data'
+for i in range(len(NAMES)):  # 각 파일들을 열고 pickle모듈을 이용해 serialized된 데이터를 파싱한다.
+    with open(path+"/ind.{}.{}".format(DATASET, NAMES[i]), 'rb') as f:
+        OBJECTS.append(cPickle.load(f, encoding='unicode_escape'))
+####
+#for i in range(len(NAMES)):
+#    OBJECTS.append(cPickle.load(open("data/ind.{}.{}".format(DATASET, NAMES[i]),encoding='unicode_escape')))
+
 x, y, tx, ty, allx, graph = tuple(OBJECTS)
 
 m = model(args)                                                 # initialize the model
