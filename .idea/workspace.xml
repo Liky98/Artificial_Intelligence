@@ -4,114 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="코드 Test">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/checkpoints/citeseer/gcn_200.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/checkpoints/cora/gcn_200.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/checkpoints/pubmed/gcn_200.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.citeseer.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.cora.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/data/ind.pubmed.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/datasets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer/accuracy/train_ac/events.out.tfevents.1572426082.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer/accuracy/val_ac/events.out.tfevents.1572426082.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer/events.out.tfevents.1572426075.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer/loss/train_loss/events.out.tfevents.1572426082.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer/loss/val_loss/events.out.tfevents.1572426082.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_test_set.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_train_set.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_val_set.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_vis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora/accuracy/train_ac/events.out.tfevents.1572428113.zhulfs-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora/accuracy/val_ac/events.out.tfevents.1572428113.zhulfs-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora/events.out.tfevents.1572428112.zhulfs-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora/loss/train_loss/events.out.tfevents.1572428113.zhulfs-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora/loss/val_loss/events.out.tfevents.1572428113.zhulfs-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora_vis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed/accuracy/train_ac/events.out.tfevents.1572431814.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed/accuracy/val_ac/events.out.tfevents.1572431814.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed/events.out.tfevents.1572431500.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed/loss/train_loss/events.out.tfevents.1572431814.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed/loss/val_loss/events.out.tfevents.1572431814.4687c5aa5f98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed_vis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/misc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/misc/data_stat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/misc/tsne_vis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/models/gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/models/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/ctieseer 분석.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.citeseer.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.cora.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.allx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.ally" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.test.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/ind.pubmed.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.citeseer.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.citeseer.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.citeseer.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.citeseer.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.citeseer.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.cora.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.cora.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.cora.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.cora.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.cora.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.pubmed.graph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.pubmed.tx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.pubmed.ty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.pubmed.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/data/trans.pubmed.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/datasets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/load_data기능개선.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/(TEST)GAT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/(TEST)GAT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/networkX.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/networkX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_ind.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_ind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +64,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ctieseer 분석">
+  <component name="RunManager" selected="Python 테스트.test_ind.py 내 Python 테스트">
     <configuration name="(TEST)GAT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ctieseer 분석" />
         <item itemvalue="Python 테스트.test_ind.py 내 Python 테스트" />
         <item itemvalue="Python 테스트.test_trans.py 내 Python 테스트" />
+        <item itemvalue="Python.ctieseer 분석" />
         <item itemvalue="Python.visualize" />
         <item itemvalue="Python.(TEST)GAT" />
       </list>
@@ -318,7 +213,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="595000" />
+      <workItem from="1640843070520" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -425,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640236312367</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update">
+      <created>1640844057850</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640844057850</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,10 +360,11 @@
     <MESSAGE value="GCN data path 수정" />
     <MESSAGE value="networkX 시각화코드작성" />
     <MESSAGE value="코드 Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="코드 Test" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
-    <SUITE FILE_PATH="coverage/KKK$.coverage" NAME=" 커버리지 결과" MODIFIED="1640244150473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
+    <SUITE FILE_PATH="coverage/KKK$.coverage" NAME=" 커버리지 결과" MODIFIED="1640848329727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
   </component>
 </project>

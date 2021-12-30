@@ -1,9 +1,9 @@
-
+# -*- coding: utf-8 -*-
 from scipy import sparse as sp
 from trans_model import trans_model as model
 import argparse
 import _pickle as cPickle
-
+import pickle
 DATASET = 'citeseer'
 
 parser = argparse.ArgumentParser()
@@ -30,7 +30,7 @@ def comp_accu(tpy, ty):
 NAMES = ['x', 'y', 'tx', 'ty', 'graph']
 OBJECTS = []
 for i in range(len(NAMES)):
-    OBJECTS.append(cPickle.load(open("data/trans.{}.{}".format(DATASET, NAMES[i]))))
+    OBJECTS.append(pickle.load(open("data/trans.{}.{}".format(DATASET, NAMES[i])),'r', encoding='UTF-8')) #넘파이배열로
 x, y, tx, ty, graph = tuple(OBJECTS)
 
 m = model(args)                                             # initialize the model
