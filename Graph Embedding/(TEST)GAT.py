@@ -10,8 +10,12 @@ from dgl import DGLGraph
 import dgl
 from IPython.display import display
 from dgl.data import CitationGraphDataset
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+#%%
 citeseer = CitationGraphDataset('citeseer')
 
+#%%
 dir(citeseer)
 #%%
 # networkx 라이브러리의 오브젝트인 그래프가 citeseer.graph 로 들어가 있다.
@@ -19,5 +23,10 @@ dir(citeseer)
 import networkx as nx
 #%%
 nx_G = citeseer.graph.to_undirected()
+#%%
 pos = nx.kamada_kawai_layout(nx_G)
-display(nx.draw(nx_G, pos, with_labels=False, node_size = 0.01, node_color='#00b4d9'))
+#%%
+nx.draw(nx_G, pos, with_labels=False, node_size = 0.01, node_color='#00b4d9')
+
+import matplotlib.pyplot as plt
+plt.show()
