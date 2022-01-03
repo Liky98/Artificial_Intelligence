@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/데이터로드 220103.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="임베딩 데이터셋 추출 및 정제">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/._README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.DIRECTED.cites.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.GRAPH.pubmed.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.NODE.paper.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/citeseer.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/citeseer/citeseer/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/citeseer/citeseer/citeseer.cites" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/citeseer/citeseer/citeseer.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/cora.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/cora/cora/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/cora/cora/cora.cites" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/cora/cora/cora.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/citeseer데이터셋png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/cora데이터셋.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/pubmed데이터셋.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/datasets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +234,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="10089000" />
+      <workItem from="1640843070520" duration="11199000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -340,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640848524004</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="임베딩 데이터셋 추출 및 정제">
+      <created>1641191032362</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1641191032362</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +396,8 @@
     <MESSAGE value="networkX 시각화코드작성" />
     <MESSAGE value="코드 Test" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="임베딩 데이터셋 추출 및 정제" />
+    <option name="LAST_COMMIT_MESSAGE" value="임베딩 데이터셋 추출 및 정제" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />

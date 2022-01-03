@@ -1,0 +1,61 @@
+This directory contains the a selection of the Cora dataset (www.research.whizbang.com/data).
+
+The Cora dataset consists of Machine Learning papers. These papers are classified into one of the following seven classes:
+		Case_Based
+		Genetic_Algorithms
+		Neural_Networks
+		Probabilistic_Methods
+		Reinforcement_Learning
+		Rule_Learning
+		Theory
+
+The papers were selected in a way such that in the final corpus every paper cites or is cited by atleast one other paper.
+ There are 2708 papers in the whole corpus.
+
+After stemming and removing stopwords we were left with a vocabulary of size 1433 unique words.
+All words with document frequency less than 10 were removed.
+
+
+THE DIRECTORY CONTAINS TWO FILES:
+
+The .content file contains descriptions of the papers in the following format:
+
+		<paper_id> <word_attributes>+ <class_label>
+
+The first entry in each line contains the unique string ID of the paper followed by binary values indicating whether
+each word in the vocabulary is present (indicated by 1) or absent (indicated by 0) in the paper.
+Finally, the last entry in the line contains the class label of the paper.
+
+The .cites file contains the citation graph of the corpus. Each line describes a link in the following format:
+
+		<ID of cited paper> <ID of citing paper>
+
+Each line contains two paper IDs.
+The first entry is the ID of the paper being cited and the second ID stands for the paper which contains the citation.
+The direction of the link is from right to left. If a line is represented by "paper1 paper2" then the link is "paper2->paper1".
+
+"""""""""
+cora데이터셋은 기계학습 논문들
+2708개의 논문.
+1433개의 고유 단어
+(문서 빈도 10 미만 단어는 모두 제거)
+
+총 6개의 클래스
+		Case_Based
+		Genetic_Algorithms
+		Neural_Networks
+		Probabilistic_Methods
+		Reinforcement_Learning
+		Rule_Learning
+		Theory
+
+Content 파일에는 논문에 대한 설명.
+- paper_id (고유id)
+- word_attributes (어휘의 각단어가 논문에 있는지 1 or 0)
+- class_label (논문 클래스 레이블
+
+Cites 파일에는 인용그래프
+- ID of cited paper (인용되는 논문의 ID
+- ID of citing paper (인용이 포함된 논문의 약자)
+방향은 오른쪽에서 왼쪽. paper2 -> paper1
+"""""""""
