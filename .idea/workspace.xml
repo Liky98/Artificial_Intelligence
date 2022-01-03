@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Update">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/데이터로드 220103.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/datasets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="22GjcdoWzAP9t7RRdaTBPYE2T9k" />
   <component name="ProjectLevelVcsManager">
@@ -64,21 +73,18 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 테스트.test_ind.py 내 Python 테스트">
-    <configuration name="(TEST)GAT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.데이터로드 220103">
+    <configuration name="데이터로드 220103" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/(TEST)GAT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석/데이터로드 220103.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.데이터로드 220103" />
         <item itemvalue="Python 테스트.test_ind.py 내 Python 테스트" />
         <item itemvalue="Python 테스트.test_trans.py 내 Python 테스트" />
         <item itemvalue="Python.ctieseer 분석" />
         <item itemvalue="Python.visualize" />
-        <item itemvalue="Python.(TEST)GAT" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +219,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="4334000" />
+      <workItem from="1640843070520" duration="10089000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -327,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640844057850</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update">
+      <created>1640848524004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640848524004</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

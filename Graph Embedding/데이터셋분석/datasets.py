@@ -9,33 +9,33 @@ import torch
 
 
 def encode_onehot_KIHOON(labels):
-    classes = set(labels)
-    classes_dict = {c: np.identity(len(classes))[i, :] for i, c in
-                    enumerate(classes)}
+    classes = set(labels) #중복되지 않은 원소 집합
+    classes_dict = {c: np.identity(len(classes))[i, :] for i, c in #객체 고유값 메모리에있는지 체크
+                    enumerate(classes)} #인덱스와 원소를 동시에 접근하면서 루프돌림
     labels_onehot = np.array(list(map(classes_dict.get, labels)),
                              dtype=np.int32)
     return labels_onehot
 
 
-def load_data_KIHOON(dataset):
-    ## get data
+def load_data_KIHOON(dataset): #citeseer / cora / pubmed  택1
+    #데이터 얻어오는 함수
     data_path = 'C:/Users/LeeKihoon/PycharmProjects/KKK/Graph Embedding/planetoid-master/data'
-    suffixs = ['x', 'y', 'allx', 'ally', 'tx', 'ty', 'graph']
-    objects = []
+    suffixs = ['x', 'y', 'allx', 'ally', 'tx', 'ty', 'graph'] #접미사(마지막에 붙는것들)
+    objects = [] #객체
     for suffix in suffixs:
-        file = data_path+ '/ind.%s.%s'%(dataset, suffix)
-        objects.append(pickle.load(open(file, 'rb'), encoding='latin1'))
+        file = data_path + '/ind.%s.%s'%(dataset, suffix)  #파일 경로 설정
+        objects.append(pickle.load(open(file, 'rb'), encoding='latin1')) #리스트에 추가함. pickle은 텍스트데이터X 바이너리파일로 저장.
     x, y, allx, ally, tx, ty, graph = objects
     x, allx, tx = x.toarray(), allx.toarray(), tx.toarray()
 
-    # test indices
+    # 테스트 인덱스들
     test_index_file = os.path.join(data_path, 'ind.%s.test.index'%dataset)
     with open(test_index_file, 'r') as f:
         lines = f.readlines()
     indices = [int(line.strip()) for line in lines]
     min_index, max_index = min(indices), max(indices)
 
-    # preprocess test indices and combine all data
+    # 테스트 인덱스들 처리 및 모든 데이터 결합
     tx_extend = np.zeros((max_index - min_index + 1, tx.shape[1]))
     features = np.vstack([allx, tx_extend])
     features[indices] = tx
@@ -43,7 +43,7 @@ def load_data_KIHOON(dataset):
     labels = np.vstack([ally, ty_extend])
     labels[indices] = ty
 
-    # get adjacency matrix
+    # 인접 매트릭스 가져오기
     adj = nx.adjacency_matrix(nx.from_dict_of_lists(graph)).toarray()
 
     idx_train = range(len(y))
