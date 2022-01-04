@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="공식데이터셋 엑셀화 전처리">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp JSON 파일 처리">
       <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/dblpv13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/json파일열기.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="24029000" />
+      <workItem from="1640843070520" duration="26648000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -378,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641280800362</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="db">
+      <created>1641282474975</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1641282474975</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dblp JSON 파일 처리">
+      <created>1641282517716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641282517716</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +430,8 @@
     <MESSAGE value="공식 데이터셋 엑셀형식으로 전처리" />
     <MESSAGE value="dblp json 분석시작" />
     <MESSAGE value="공식데이터셋 엑셀화 전처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="공식데이터셋 엑셀화 전처리" />
+    <MESSAGE value="dblp JSON 파일 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="dblp JSON 파일 처리" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />

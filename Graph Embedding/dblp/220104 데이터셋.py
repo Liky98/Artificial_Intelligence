@@ -1,3 +1,44 @@
+import bigjson
+import pandas as pd
+import numpy as np
+import json
+
+path = "dblpv13.json"
+with open(path, 'rb') as f:
+    j = bigjson.load(f)
+
+#%%
+import json
+import numpy as np
+
+class NumpyEncoder(json.JSONEncoder):
+    """ Special json encoder for numpy types """
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return json.JSONEncoder.default(self, obj)
+
+dumped = json.dumps(j, cls=NumpyEncoder)
+with open(path, 'w') as f:
+    x = json.dump(dumped, f)
+
+print(x)
+#%%
+with open(path, 'r') as f:
+    data = json.load(f)
+
+
+
+#%%
+
+
+#%%
+
+"""
 import json
 import pandas as pd
 import gc # 메모리 대비
@@ -54,3 +95,4 @@ def read_docs_type2(input_path: path, fname: str):
     return docs
 
 # ==> read_docs_type2: 2400909 docs, elapsed 784.430 sec (13분)     # mmap.readline
+"""
