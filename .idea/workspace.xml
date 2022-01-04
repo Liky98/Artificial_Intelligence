@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="공식 데이터셋 다운 및 분ㅅ넉">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/220103 원본데이터 추출.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/citeseer데이터셋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/cora데이터셋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/pubmed데이터셋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/남규형이준네트워크저장및로드.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp json 분석시작">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/json파일열기.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/(TEST)GAT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/citeseer데이터셋png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/cora데이터셋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/pubmed데이터셋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/ctieseer 분석.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/(TEST)ctieseer 분석.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/load_data기능개선.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +73,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.데이터로드 220103">
+  <component name="RunManager" selected="Python.220104 데이터셋">
     <configuration name="데이터로드 220103" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,20 +93,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="(TEST)ctieseer 분석" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="220103 원본데이터 추출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석\(TEST)ctieseer 분석.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석/220103 원본데이터 추출.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="220104 데이터셋" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,28 +145,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/visualize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.220104 데이터셋" />
+        <item itemvalue="Python.220103 원본데이터 추출" />
         <item itemvalue="Python.데이터로드 220103" />
         <item itemvalue="Python 테스트.test_ind.py 내 Python 테스트" />
         <item itemvalue="Python 테스트.test_trans.py 내 Python 테스트" />
-        <item itemvalue="Python.(TEST)ctieseer 분석" />
-        <item itemvalue="Python.visualize" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +213,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="14611000" />
+      <workItem from="1640843070520" duration="22828000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -363,7 +348,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641192205426</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="공식 데이터셋 다운 및 분석">
+      <created>1641199445898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641199445898</updated>
+    </task>
+    <task id="LOCAL-00021" summary="공식 데이터셋 엑셀형식으로 전처리">
+      <created>1641276347270</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1641276347270</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dblp json 분석시작">
+      <created>1641280455552</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1641280455552</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +405,10 @@
     <MESSAGE value="Update" />
     <MESSAGE value="임베딩 데이터셋 추출 및 정제" />
     <MESSAGE value="공식 데이터셋 다운 및 분ㅅ넉" />
-    <option name="LAST_COMMIT_MESSAGE" value="공식 데이터셋 다운 및 분ㅅ넉" />
+    <MESSAGE value="공식 데이터셋 다운 및 분석" />
+    <MESSAGE value="공식 데이터셋 엑셀형식으로 전처리" />
+    <MESSAGE value="dblp json 분석시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="dblp json 분석시작" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
