@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp JSON 파일 처리">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/20220105 json파싱.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP json분석.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/dblpv13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/json파일열기.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/json파일열기.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +73,11 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.220104 데이터셋">
+  <component name="RunManager" selected="Python.20220105 json파싱">
     <configuration name="데이터로드 220103" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +89,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석/데이터로드 220103.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20220105 json파싱" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/20220105 json파싱.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,28 +191,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_trans.py 내 Python 테스트" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Graph Embedding/planetoid-master/test_trans.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20220105 json파싱" />
         <item itemvalue="Python.220104 데이터셋" />
         <item itemvalue="Python.220103 원본데이터 추출" />
         <item itemvalue="Python.데이터로드 220103" />
         <item itemvalue="Python 테스트.test_ind.py 내 Python 테스트" />
-        <item itemvalue="Python 테스트.test_trans.py 내 Python 테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +221,7 @@
       <workItem from="1640155951376" duration="8053000" />
       <workItem from="1640241788104" duration="3192000" />
       <workItem from="1640245364270" duration="1756000" />
-      <workItem from="1640843070520" duration="26648000" />
+      <workItem from="1640843070520" duration="38542000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -390,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641282517716</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="dblp JSON 파일 처리">
+      <created>1641286018333</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1641286018334</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
