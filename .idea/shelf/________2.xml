@@ -1,0 +1,14 @@
+<changelist name="리베이스_전에_커밋되지_않은_변경_내용_[변경]2" date="1641819642499" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/shelved.patch" />
+  <option name="DESCRIPTION" value="리베이스 전에 커밋되지 않은 변경 내용 [변경]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Graph Embedding/dblp/TEST/DBLP json분석.xlsx" />
+    <option name="AFTER_PATH" value="Graph Embedding/dblp/TEST/DBLP json분석.xlsx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/DBLP json분석.xlsx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="Graph Embedding/dblp/원본데이터/split1.EXE" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/split1.EXE" />
+  </binary>
+</changelist>
