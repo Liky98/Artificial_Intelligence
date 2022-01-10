@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp JSON 파싱시작">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/20220106 파싱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/dblpv13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/json파일 파싱.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/새 텍스트 문서 (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/처리완료 0번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etc/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etc/엑셀파일저장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 10번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 11번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 12번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 1번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 2번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 3번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 4번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 5번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 6번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 7번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 8번째.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/처리완료 9번째.json" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="big data push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/20220105 json파싱.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/20220105 json파싱.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP json분석.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP json분석.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/json파일열기.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/1차 전처리/처리완료 1번째.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 전처리파일 분석.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 최종 전처리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/TEST/DBLP json분석.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/TEST/DBLP json분석.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -94,30 +77,8 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20220106 파싱">
-    <configuration name="엑셀파일저장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/etc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etc/엑셀파일저장.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20220105 json파싱" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.DBLP마지막전처리">
+    <configuration name="전처리테스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +91,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/20220105 json파싱.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/전처리테스트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,48 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20220106 파싱" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/20220106 파싱.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="220103 원본데이터 추출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/데이터셋분석/220103 원본데이터 추출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="220104 데이터셋" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DBLP 2차 전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +113,70 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/220104 데이터셋.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 2차 전처리.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DBLP 3차 전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 3차 전처리.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DBLP 데이터병합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp\DBLP 데이터병합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DBLP마지막전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP마지막전처리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20220106 파싱" />
-        <item itemvalue="Python.20220105 json파싱" />
-        <item itemvalue="Python.엑셀파일저장" />
-        <item itemvalue="Python.220104 데이터셋" />
-        <item itemvalue="Python.220103 원본데이터 추출" />
+        <item itemvalue="Python.DBLP마지막전처리" />
+        <item itemvalue="Python.전처리테스트" />
+        <item itemvalue="Python.DBLP 3차 전처리" />
+        <item itemvalue="Python.DBLP 데이터병합" />
+        <item itemvalue="Python.DBLP 2차 전처리" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +240,8 @@
       <workItem from="1640843070520" duration="38956000" />
       <workItem from="1641446365568" duration="3425000" />
       <workItem from="1641453080966" duration="6019000" />
-      <workItem from="1641460568572" duration="1999000" />
+      <workItem from="1641460568572" duration="2548000" />
+      <workItem from="1641528599946" duration="11931000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -448,7 +432,42 @@
       <option name="project" value="LOCAL" />
       <updated>1641372463044</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기">
+      <created>1641462695306</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1641462695307</updated>
+    </task>
+    <task id="LOCAL-00029" summary="분석">
+      <created>1641530858115</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1641530858115</updated>
+    </task>
+    <task id="LOCAL-00030" summary="최종 전처리 분할 데이터셋 제작">
+      <created>1641531273299</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1641531273299</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Revert &quot;정제된 새로운 json 파일 추가/ 빈 속성값 제거 직전&quot;&#10;&#10;This reverts commit fc5e479f">
+      <created>1641819806514</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1641819806514</updated>
+    </task>
+    <task id="LOCAL-00032" summary="big data push">
+      <created>1641823259337</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1641823259337</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,14 +481,42 @@
             <State />
           </value>
         </entry>
+        <entry key="bf0b28b2-a66e-4f81-9271-76e0d26a6e31">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="bf0b28b2-a66e-4f81-9271-76e0d26a6e31" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Test" />
-    <MESSAGE value="기존 작업 파일" />
     <MESSAGE value="211216" />
     <MESSAGE value="pytorch Cuda GPU설정" />
     <MESSAGE value="etc" />
@@ -490,7 +537,12 @@
     <MESSAGE value="공식데이터셋 엑셀화 전처리" />
     <MESSAGE value="dblp JSON 파일 처리" />
     <MESSAGE value="dblp JSON 파싱시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="dblp JSON 파싱시작" />
+    <MESSAGE value="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기" />
+    <MESSAGE value="분석" />
+    <MESSAGE value="최종 전처리 분할 데이터셋 제작" />
+    <MESSAGE value="Revert &quot;정제된 새로운 json 파일 추가/ 빈 속성값 제거 직전&quot;&#10;&#10;This reverts commit fc5e479f" />
+    <MESSAGE value="big data push" />
+    <option name="LAST_COMMIT_MESSAGE" value="big data push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
