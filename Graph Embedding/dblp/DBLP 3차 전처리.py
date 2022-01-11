@@ -1,22 +1,7 @@
 """
-_id                 str
-title               str
-year                int
-keywords            list of str
-fos                 list of str
-references          list of str
-n_citation          int
-abstract            str
-authors._id         list of str
-authors.name        list of str
-authors.org         list of str
-authors.orgid       list of str
-venue.sid           str
-venue.raw           str
-
-14개의 Key
-153164개의 Dictonory
-
+1차 전처리 이후, 본 코드에서 2차 전처리 이후 데이터를 병합함.
+필요한 Key값만 뽑아서 새로운 json 파일을 만들었음.
+필요한 데이터가 전부 존재하는 딕셔너리인지 확인 후 새로운 json파일에 원하는 데이터만 추가하여 저장함.
 """
 import json
 import re
@@ -121,7 +106,7 @@ for i in range(17):
 with open("막전.json", 'w') as f:
     json.dump(DBLP, f, indent=4)
 
-#%%
+
 # 최종 확인 데이터
 storeList = ["_id", "title", "year", "keywords", "fos", "references", "n_citation", "abstract", "authors._id",
      "authors.name", "authors.org", "authors.orgid", "venue.sid", "venue.raw"]
@@ -134,6 +119,3 @@ for i in storeList :
     print("{0}의 데이터 타입 = {1}".format(i,type(load_data[0][i])))
 
 print("데이터의 개수는 {} 입니다.".format(len(load_data)))
-
-
-#%%

@@ -4,98 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="ignore 테스트">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/________9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]1/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]1/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]3/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]3/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]4/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]4/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]5/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]5/split1.EXE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]6/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]6/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]7/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]7/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]8/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]8/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]9/DBLP json분석.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]9/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP마지막전처리.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="etc.">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 데이터 분석.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/dblp/원본데이터/split1.EXE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_test_set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_train_set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_val_set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/citeseer_vis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/cora_vis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/pubmed_vis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN.PyTorch-master/experiments/results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/citeseer데이터셋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/cora데이터셋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/데이터셋분석/pubmed데이터셋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/images/bird1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/images/bird2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/images/cactus1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/images/cactus2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/images/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/imbDRL-master/images/results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Trex-keras-cnn/screenshot/ex_collect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Trex-keras-cnn/screenshot/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/gym-master/gym/envs/classic_control/assets/clockwise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/gym-master/gym/envs/robotics/assets/textures/block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/gym-master/gym/envs/robotics/assets/textures/block_hidden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_glfw_context.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_materials.premod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_materials.props.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_materials.rand_all.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop0_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop0_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop1_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop2_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_multiple_sims.loop2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_cameras.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_cameras.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_rendering.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_states.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_states.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_states.3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_states.4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_render_pool.mp_test_states.5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering.camera1.narrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering.camera1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering.freecam.depth-darwin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering.freecam.depth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering.freecam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_rendering_markers.camera1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop0_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop0_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop1_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop2_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_resetting.loop2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.premod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.rand_all.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.rand_specific.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.rand_texrepeat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.rgb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/mujoco_py/test_imgs/test_textures.variety.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/mujoco-py-master/vendor/10_nvidia.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 1차 전처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 1차 전처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 2차 전처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 2차 전처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 3차 전처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 3차 전처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 데이터병합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 데이터병합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP마지막전처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/DBLP마지막전처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/TEST/DBLP json분석.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/dblp/TEST/DBLP json분석.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/새 텍스트 문서 (2).txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +82,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DBLP마지막전처리">
+  <component name="RunManager" selected="Python.DBLP 데이터 분석">
     <configuration name="전처리테스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,20 +105,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBLP 2차 전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DBLP 최종테스트 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 2차 전처리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 최종테스트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,20 +124,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBLP 3차 전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DBLP 최종테스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp/원본데이터" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 3차 전처리.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp\DBLP 최종테스트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,20 +143,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBLP 데이터병합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DBLP 데이터 분석" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp\DBLP 데이터병합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 데이터 분석.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DBLP 데이터 분석" />
+        <item itemvalue="Python.DBLP 최종테스트 (1)" />
+        <item itemvalue="Python.DBLP 최종테스트" />
         <item itemvalue="Python.DBLP마지막전처리" />
         <item itemvalue="Python.전처리테스트" />
-        <item itemvalue="Python.DBLP 3차 전처리" />
-        <item itemvalue="Python.DBLP 데이터병합" />
-        <item itemvalue="Python.DBLP 2차 전처리" />
       </list>
     </recent_temporary>
   </component>
@@ -588,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641824284926</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="etc.">
+      <created>1641824634125</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1641824634125</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="211220 코드작성" />
     <MESSAGE value="주석 수정" />
     <MESSAGE value="코드 수정" />
     <MESSAGE value="Graph Convolutional Neural Networks (GCN)" />
@@ -663,7 +579,8 @@
     <MESSAGE value="DBLP 전처리 완성직전" />
     <MESSAGE value="빅데이터 테스트" />
     <MESSAGE value="ignore 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore 테스트" />
+    <MESSAGE value="etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="etc." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />

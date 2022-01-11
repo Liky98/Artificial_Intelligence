@@ -40,7 +40,7 @@ for i in range(17) :
 # The End
 
 """
-        
+    아래의 코드를 위와 같이 바꿈
     while 1 :
         if "_id" not in load_data[count]:
             del load_data[count] #딕셔너리 자체를 삭제
