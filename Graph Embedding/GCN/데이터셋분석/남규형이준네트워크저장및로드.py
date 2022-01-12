@@ -1,3 +1,6 @@
+import networkx as nx
+import json
+
 class Network:
     def __init__(self, dirpath=None, year=2020):
         self.G = nx.DiGraph()

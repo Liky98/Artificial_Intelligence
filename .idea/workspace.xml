@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="최종 DBLP 데이터셋 구축 완료">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="stellargraph 연습">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/json_open.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/GCN/데이터셋분석/남규형이준네트워크저장및로드.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/GCN/데이터셋분석/남규형이준네트워크저장및로드.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +72,23 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\NetworkX" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DBLP 데이터 분석">
-    <configuration name="전처리테스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.NetworkX 연습">
+    <configuration name="NetworkX 제작 시작 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/전처리테스트.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 제작 시작.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,17 +97,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBLP 최종테스트 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NetworkX 연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 최종테스트.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,55 +116,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBLP 최종테스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NetworkX 제작 시작" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp/원본데이터" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/StellarGraph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp\DBLP 최종테스트.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DBLP 데이터 분석" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP 데이터 분석.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DBLP마지막전처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/dblp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/dblp/DBLP마지막전처리.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\NetworkX\NetworkX 제작 시작.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,13 +157,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="json_open (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/NetworkX/json_open.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json_open" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\NetworkX\json_open.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DBLP 데이터 분석" />
-        <item itemvalue="Python.DBLP 최종테스트 (1)" />
-        <item itemvalue="Python.DBLP 최종테스트" />
-        <item itemvalue="Python.DBLP마지막전처리" />
-        <item itemvalue="Python.전처리테스트" />
+        <item itemvalue="Python.NetworkX 연습" />
+        <item itemvalue="Python.json_open (1)" />
+        <item itemvalue="Python.json_open" />
+        <item itemvalue="Python.NetworkX 제작 시작 (1)" />
+        <item itemvalue="Python.NetworkX 제작 시작" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +230,9 @@
       <workItem from="1641453080966" duration="6019000" />
       <workItem from="1641460568572" duration="2548000" />
       <workItem from="1641528599946" duration="11931000" />
+      <workItem from="1641884139968" duration="1521000" />
+      <workItem from="1641886392168" duration="498000" />
+      <workItem from="1641886903167" duration="10742000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1639551367849</created>
@@ -503,7 +507,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641883346495</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="폴더 변경/ 작업분류">
+      <created>1641884165547</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1641884165547</updated>
+    </task>
+    <task id="LOCAL-00041" summary="폴더 변경/ 작업분류">
+      <created>1641884174305</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1641884174305</updated>
+    </task>
+    <task id="LOCAL-00042" summary="stellargraph 연습">
+      <created>1641967187894</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1641967187894</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,8 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="코드 수정" />
-    <MESSAGE value="Graph Convolutional Neural Networks (GCN)" />
     <MESSAGE value="인공지능활용분석2급 사전테스트" />
     <MESSAGE value="GCN data path 수정" />
     <MESSAGE value="networkX 시각화코드작성" />
@@ -578,7 +601,9 @@
     <MESSAGE value="ignore 테스트" />
     <MESSAGE value="etc." />
     <MESSAGE value="최종 DBLP 데이터셋 구축 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="최종 DBLP 데이터셋 구축 완료" />
+    <MESSAGE value="폴더 변경/ 작업분류" />
+    <MESSAGE value="stellargraph 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="stellargraph 연습" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
