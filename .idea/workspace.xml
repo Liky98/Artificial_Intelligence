@@ -4,405 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="인공지능활용분석2급">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_네트워크임베딩/edges.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_네트워크임베딩/gtn-dblp.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_네트워크임베딩/labels.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_네트워크임베딩/node_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_이기종그래프/dblp.cmty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/Data/DBLP_이기종그래프/dblp.ungraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/DBLP_NetworkEmbedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.flake8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/ISSUE_TEMPLATE/documentation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/ISSUE_TEMPLATE/feature-request.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/ISSUE_TEMPLATE/installation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/ISSUE_TEMPLATE/question-help.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.pre-commit-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.readthedocs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/README_CN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/customized_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/gatne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/gcc_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/geom_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/gtn_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/han_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/kg_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/matlab_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/oagbert_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/ogb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/planetoid_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/rd2cd_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/rec_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/saint_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/datasets/tu_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/experiments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/actgcn_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/actgcnii_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/actlinear_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/actmlp_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/actsage_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/base_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/deepergcn_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/disengcn_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/gat_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/gcn_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/gcnii_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/gin_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/gine_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/han_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/mixhop_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/mlp_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/pprgo_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/reversible_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/rgcn_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/sage_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/saint_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/se_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/set2set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/layers/sgc_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/loggers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/loggers/base_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/loggers/tensorboard_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/loggers/wandb_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/base_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/deepwalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/dgk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/dngr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/gatne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/graph2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/grarep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/hin2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/hope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/metapath2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/netmf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/netsmf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/node2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/prone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/pronepp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/pte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/sdne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/emb/spectral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/actgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/agc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/autognn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/compgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/correct_smooth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/daegc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/deepergcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/dgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/diffpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/disengcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/drgat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/drgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/dropedge_gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gae.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gcc_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gcnii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gcnmix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gdc_gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/grace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/grand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/graph_unet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/graphsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/graphsaint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/gtn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/han.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/infograph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/lightgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/m3s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/mixhop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/mlp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/moe_gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/mvgrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/patchy_san.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/ppnp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/pprgo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/revgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/rgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/sagn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/sgc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/sign.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/sortpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/srgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/models/nn/unsup_graphsage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/bert_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/dual_position_bert_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/oagbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/oagbert_metainfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/oag/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/edge_softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/edge_softmax/edge_softmax.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/edge_softmax/edge_softmax.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/fused_gat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/linear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/mhspmm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/sample/sample.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/scatter_max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/scatter_max/scatter_max.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/scatter_max/scatter_max.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/computeUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/mhTranspose.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/mhTranspose.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/multiheadSddmm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/multiheadSddmm.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/multiheadSpmm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/multiheadSpmm.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/sddmm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/sddmm_kernel.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/spmm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/spmm_cpu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/operators/spmm/spmm_kernel.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/controller/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/controller/data_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/controller/training_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/embed_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/trainer/trainer_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/graph_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/link_prediction_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/ppr_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/prone_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/rwalk/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/rwalk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/rwalk/rwalk.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/rwalk/rwalk.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/sampling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/spmm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/srgcn_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/utils/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/base_data_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/graph_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/graph_classification/graph_classification_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/graph_classification/graph_embedding_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/graph_classification/infograph_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/graph_classification/patchy_san_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/heterogeneous/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/heterogeneous/heterogeneous_embedding_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/heterogeneous/heterogeneous_gnn_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/heterogeneous/multiplex_embedding_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/link_prediction/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/link_prediction/embedding_link_prediction_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/link_prediction/gnn_kg_link_prediction_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/link_prediction/gnn_link_prediction_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/cluster_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/graphsage_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/m3s_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/network_embedding_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/node_classification_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/pprgo_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/node_classification/sagn_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/pretraining/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/data_wrapper/pretraining/gcc_dw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/default_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/base_model_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/clustering/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/clustering/agc_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/clustering/daegc_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/clustering/gae_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/graph_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/graph_classification/graph_classification_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/graph_classification/graph_embedding_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/graph_classification/infograph_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/heterogeneous/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/heterogeneous/heterogeneous_embedding_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/heterogeneous/heterogeneous_gnn_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/heterogeneous/multiplex_embedding_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/link_prediction/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/link_prediction/embedding_link_prediction_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/link_prediction/gnn_kg_link_prediction_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/link_prediction/gnn_link_prediction_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/correct_smooth_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/dgi_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/gcnmix_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/grace_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/grand_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/graphsage_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/m3s_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/mvgrl_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/network_embedding_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/node_classification_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/pprgo_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/sagn_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/self_auxiliary_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/node_classification/unsup_graphsage_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/pretraining/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/model_wrapper/pretraining/gcc_mw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/tools/memory_moco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/cogdl/wrappers/tools/wrapper_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/data.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/data_wrappers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/datasets.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/experiments.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/layers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/model_wrappers.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/models.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/options.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/pipelines.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/api/utils.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/install.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/quickstart.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/tutorial/custom_dataset.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/tutorial/custom_gnn.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/tutorial/graph.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/docs/source/tutorial/node_classification.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/VRGCN/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/VRGCN/VRGCN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/VRGCN/dataloder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/VRGCN/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/custom_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/custom_gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/cv_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/generate_emb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/notebooks/build_gnn_applications.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/notebooks/quickstart.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/notebooks/write_your_first_gcn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/calculate_paper_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/generate_title.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/oagbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/oagbert_encode_paper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/oagbert_metainfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/oagbert_metainfo_zh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/oagbert/oagbert_metainfo_zh_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/ogb/arxiv/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/ogb/arxiv/gnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/ogb/products/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/ogb/products/gnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/chebnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/dgcnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/gat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/gcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/pyg/unet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/quick_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/recommendation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/simple_hgn/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/simple_hgn/conv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/simple_hgn/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/gnn_papers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/results.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/scripts/display_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/scripts/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/scripts/installation/gcc.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/scripts/parallel_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/scripts/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_customized_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_gcc_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_geom_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_kg_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_matlab_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_oagbert_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_ogb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_planetoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_rd2cd_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_rec_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/datasets/test_saint_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/models/emb/test_deepwalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/models/ssl/test_contrastive_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/models/ssl/test_generative_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_attributed_graph_clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_encode_paper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_graph_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_heterogeneous_node_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_link_prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_multiplex_link_prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_node_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_unsupervised_graph_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/tasks/test_unsupervised_node_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_experiments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_oag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/tests/test_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/cogdl-master/third_party/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/1_Chap 3.Pandas 를 활용한 데이터 관리.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/Chap 2. Pandas 를 활용한 정형 데이터 관리.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/딥러닝 이미지 자료/딥러닝 이미지 자료.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/부품구입대장2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/부품구입대장3.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/한글 텍스트분석 자료/국내여행_2017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/한글 텍스트분석 자료/불용어목록.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/한글 텍스트분석 자료/와푸gsub.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인공지능활용분석 2급/인공지능 실습용자료/한글 텍스트분석 자료/파이썬_텍스트분석예제_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]1/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]2/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]3/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]4/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]5/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]6/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]7/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]8/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/리베이스_전에_커밋되지_않은_변경_내용_[변경]9/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.DIRECTED.cites.tab.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.GRAPH.pubmed.tab.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/Pubmed-Diabetes/Pubmed-Diabetes/data/Pubmed-Diabetes.NODE.paper.tab.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/인공지능활용분석 2급/1_Chap 1.인공지능 개념과 역사와 다양한 활용 사례.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/citeseer/citeseer/citeseer_cites.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/citeseer/citeseer/citeseer_content.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/cora/cora/cora.cites.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/Data/cora/cora/cora.content.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/dblp/TEST/DBLP json분석.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Dino/Deep-Learning-Google-Chrome-Dinosaur-Game-master/dino.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/Dense_DQN1120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/Dense_DQN1121.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/solution_Q1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/solution_forest.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q-learning/Titanic/타이타닉/211123 비교/only_Dense1121.csv" beforeDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp 그래프 분석">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -640,21 +243,7 @@
       <workItem from="1641884139968" duration="1521000" />
       <workItem from="1641886392168" duration="498000" />
       <workItem from="1641886903167" duration="11783000" />
-      <workItem from="1642042206429" duration="11069000" />
-    </task>
-    <task id="LOCAL-00001" summary="Test">
-      <created>1639551367849</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1639551367849</updated>
-    </task>
-    <task id="LOCAL-00002" summary="기존 작업 파일">
-      <created>1639551547383</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1639551547383</updated>
+      <workItem from="1642042206429" duration="11318000" />
     </task>
     <task id="LOCAL-00003" summary="211216">
       <created>1639632586981</created>
@@ -978,7 +567,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642057755841</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="gitignore 추가">
+      <created>1642057896929</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1642057896929</updated>
+    </task>
+    <task id="LOCAL-00050" summary="dblp 그래프 분석">
+      <created>1642057993811</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1642057993811</updated>
+    </task>
+    <task id="LOCAL-00051" summary="dblp 그래프 분석">
+      <created>1642058034514</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1642058034514</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1028,7 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="코드 Test" />
     <MESSAGE value="Update" />
     <MESSAGE value="임베딩 데이터셋 추출 및 정제" />
     <MESSAGE value="공식 데이터셋 다운 및 분ㅅ넉" />
@@ -1051,9 +660,10 @@
     <MESSAGE value="폴더 변경/ 작업분류" />
     <MESSAGE value="stellargraph 연습" />
     <MESSAGE value="NetworkX 제작 테스트" />
-    <MESSAGE value="gitignore 추가" />
     <MESSAGE value="인공지능활용분석2급" />
-    <option name="LAST_COMMIT_MESSAGE" value="인공지능활용분석2급" />
+    <MESSAGE value="gitignore 추가" />
+    <MESSAGE value="dblp 그래프 분석" />
+    <option name="LAST_COMMIT_MESSAGE" value="dblp 그래프 분석" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
