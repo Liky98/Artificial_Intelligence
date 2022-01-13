@@ -139,3 +139,5 @@ dmypy.json
 *.csv
 *.zip
 *.egg
+/인공지능활용분석 2급/
+/Graph Embedding/cogdl-master/
