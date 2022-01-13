@@ -137,3 +137,5 @@ dmypy.json
 *.jpg
 *.xlsx
 *.csv
+*.zip
+*.egg
