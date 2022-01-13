@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="dblp 그래프 분석">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Embedding/NetworkX/DBLP_NetworkEmbedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/DBLP_NetworkEmbedding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,14 +244,7 @@
       <workItem from="1641884139968" duration="1521000" />
       <workItem from="1641886392168" duration="498000" />
       <workItem from="1641886903167" duration="11783000" />
-      <workItem from="1642042206429" duration="11318000" />
-    </task>
-    <task id="LOCAL-00003" summary="211216">
-      <created>1639632586981</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1639632586981</updated>
+      <workItem from="1642042206429" duration="12850000" />
     </task>
     <task id="LOCAL-00004" summary="211216">
       <created>1639642175028</created>
@@ -588,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642058034514</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="dblp 그래프 분석">
+      <created>1642058115435</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1642058115435</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

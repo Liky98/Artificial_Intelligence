@@ -1,4 +1,11 @@
 """
+DBLP DataSet
+
+네트워크 임베딩(Unsupervised Node classification)
+Dataset	|#Nodes	|#Edges	    |#Classes	|#Degree	|#Name in Cogdl
+DBLP	|51,264	|2,990,443	|60(m)	    |2	        |dblp-ne
+
+이기종 그래프
 Dataset	|#Nodes	|#Edges	|#Features	|#Classes	|#Train/Val/Test	|#Degree	|#Edge Type	|#Name in Cogdl
 DBLP	|18,405	|67,946	|334	    |4	        |800 / 400 / 2857	|4	        |4	        |gtn-dblp(han-acm)
 """
