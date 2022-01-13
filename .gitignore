@@ -133,3 +133,7 @@ dmypy.json
 
 .tmp.drivedownload
 .tmp.driveupload
+*.pickle
+*.jpg
+*.xlsx
+*.csv
