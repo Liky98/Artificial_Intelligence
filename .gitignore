@@ -1,6 +1,12 @@
 #git rm -r --cached .
 #git add .
 
+*.gexf
+*.edge
+*.graph
+*.node
+*.txt
+*.xml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
