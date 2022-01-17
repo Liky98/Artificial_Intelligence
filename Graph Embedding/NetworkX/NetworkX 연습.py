@@ -25,29 +25,27 @@ for i in data :
         G.add_edge(j, i["_id"], relation = "4")  # authors._id → _id   (저자가 쓴 논문 관계)
 
     for j in i["references"]:
-        G.add_edge(i["_id"], j)  # _id → references (논문에서 인용한 다른 논문 관계)
-        G.add_edge(j, i["_id"])  # references → _id (인용한 논문 관계)
+        G.add_edge(i["_id"], j,relation = "5")  # _id → references (논문에서 인용한 다른 논문 관계)
+        G.add_edge(j, i["_id"],relation = "6")  # references → _id (인용한 논문 관계)
 
     for j in i["keywords"] :
-        G.add_edge(i["_id"], j)  # _id → keywords (논문의 키워드 관계)
-        G.add_edge(j, i["_id"])  # keywords → _id (해당 키워드에 포함된 논문 관계)
+        G.add_edge(i["_id"], j,relation = "7")  # _id → keywords (논문의 키워드 관계)
+        G.add_edge(j, i["_id"],relation = "8")  # keywords → _id (해당 키워드에 포함된 논문 관계)
 
     for j in i["fos"] :
-        G.add_edge(i["_id"], j)       # _id → fos (논문의 분야 관계)
-        G.add_edge(j, i["_id"])       # fos → _id (해당 분야에 포함된 논문 관계)
+        G.add_edge(i["_id"], j,relation = "9")       # _id → fos (논문의 분야 관계)
+        G.add_edge(j, i["_id"],relation = "10")       # fos → _id (해당 분야에 포함된 논문 관계)
 
-    G.add_edge(i["_id"], i["year"])  # _id →  year  (논문의 발행연도 관계)
-    G.add_edge(i["year"], i["_id"])  # year → _id (해당연도에 발행된 논문 관계)
+    G.add_edge(i["_id"], i["year"],relation = "11")  # _id →  year  (논문의 발행연도 관계)
+    G.add_edge(i["year"], i["_id"],relation = "12")  # year → _id (해당연도에 발행된 논문 관계)
 
-    count+=1
-    if count == 5 :
-        break
+    count +=1
+    if count %100 == 0 :
+        print(f"{count}번째 작업중입니다.")
 
+# 그래프 저장
+nx.write_gpickle(G,"DBLP.gexf")
+nx.write_edgelist(G, "DBLP_Edge")
 
-d = dict(G.degree) #degree 크기에 따른 NODE size 설정
-nx.draw(G, node_size = [v*2 for v in d.values()],with_labels=False)
-plt.show()
-
-print(nx.info(G))
-len(list(G.nodes))
-list(G.edges)
+#그래프 읽기
+test = nx.read_gpickle("DBLP.gexf")
