@@ -45,7 +45,7 @@ for i in data :
 
 # 그래프 저장
 nx.write_gpickle(G,"DBLP.gexf")
-nx.write_edgelist(G, "DBLP_Edge")
+nx.write_edgelist(G, "DBLP_Edge.edge")
 
 #그래프 읽기
 test = nx.read_gpickle("DBLP.gexf")
