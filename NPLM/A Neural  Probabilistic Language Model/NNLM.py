@@ -1,10 +1,10 @@
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize # 자연어처리 라이브러리
 from collections import Counter
 import numpy as np
 import tensorflow as tf
-from sklearn.decomposition import PCA
+from sklearn.decomposition import PCA #주성분 분석
 import matplotlib.pyplot as plt
-
+import pprint as pprint
 # hyperparameter
 batch_size = 32
 window_size = 5

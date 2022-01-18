@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="git ignore 수정">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM Models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NetworkX 연습">
+  <component name="RunManager" selected="Python.NNLM">
     <configuration name="DBLP_NetworkEmbedding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +97,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/NetworkX/DBLP_NetworkEmbedding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NNLM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,35 +209,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="json_open" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\NetworkX\json_open.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NNLM" />
         <item itemvalue="Python.NetworkX 연습" />
         <item itemvalue="Python.custom_dataset" />
         <item itemvalue="Python.DBLP_NetworkEmbedding" />
         <item itemvalue="Python.json_open (1)" />
-        <item itemvalue="Python.json_open" />
       </list>
     </recent_temporary>
   </component>
@@ -251,21 +248,7 @@
       <workItem from="1641886392168" duration="498000" />
       <workItem from="1641886903167" duration="11783000" />
       <workItem from="1642042206429" duration="14253000" />
-      <workItem from="1642402574281" duration="3549000" />
-    </task>
-    <task id="LOCAL-00009" summary="주석 수정">
-      <created>1640149329205</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1640149329205</updated>
-    </task>
-    <task id="LOCAL-00010" summary="코드 수정">
-      <created>1640151729150</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1640151729150</updated>
+      <workItem from="1642402574281" duration="4182000" />
     </task>
     <task id="LOCAL-00011" summary="Graph Convolutional Neural Networks (GCN)">
       <created>1640151738945</created>
@@ -596,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642406782234</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Create DBLP NetworkX Graph&amp;Edge">
+      <created>1642407134173</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1642407134173</updated>
+    </task>
+    <task id="LOCAL-00059" summary="NPLM Models">
+      <created>1642407172370</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1642407172370</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,8 +643,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="공식 데이터셋 다운 및 분석" />
-    <MESSAGE value="공식 데이터셋 엑셀형식으로 전처리" />
     <MESSAGE value="dblp json 분석시작" />
     <MESSAGE value="공식데이터셋 엑셀화 전처리" />
     <MESSAGE value="dblp JSON 파일 처리" />
@@ -671,7 +666,9 @@
     <MESSAGE value="dblp 그래프 분석 추가" />
     <MESSAGE value="DBLP NetworkX Graph 제작 및 Edge 생성" />
     <MESSAGE value="git ignore 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore 수정" />
+    <MESSAGE value="Create DBLP NetworkX Graph&amp;Edge" />
+    <MESSAGE value="NPLM Models" />
+    <option name="LAST_COMMIT_MESSAGE" value="NPLM Models" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
