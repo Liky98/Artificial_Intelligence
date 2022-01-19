@@ -31,7 +31,7 @@ def load(filepath, window_size, vocab_size=None):
     
     return np.array(x_train), np.array(y_train)[:,None], np.array(vocab), word2id
             
-def convert_to_id(x_train, y_train, vocab):
+def convert_to_id(x_train, y_train, vocab): #id로 전환
     
     word_to_id = {}
     for i, vocab in enumerate(vocab):
@@ -74,7 +74,7 @@ def train(model, epoch_size):
     word_embedding = model.C.eval()
     return model, word_embedding
 	
-def cosine_similarity(wordvec1, wordvec2):
+def cosine_similarity(wordvec1, wordvec2): #cos 함수로
     return np.dot(wordvec1, wordvec2) / (np.linalg.norm(wordvec1) * np.linalg.norm(wordvec2))
 
 def distance(wordvec1, wordvec2):
@@ -137,7 +137,7 @@ class NNLM:
         ###### y = b + Wx + Utanh(d + Hx) #####
 
         # x = (C(w(t-1)), C(w(t-2), ..., C(w(t-n+1))), n == window_size
-        with tf.name_scope('Projection_Layer'):
+        with tf.name_scope('Projection_Layer'): #전역 이름 공간
             x  = tf.nn.embedding_lookup(self.C, self.input_words) # (batch_size, window_size-1, emb_dim)
             x  = tf.reshape(x, shape=(batch_size, (window_size - 1) * emb_dim)) # (batch_size, (window_size-1 * emb_dim))
             
@@ -168,7 +168,7 @@ class NNLM:
 if __name__ == '__main__':
 
 
-    filepath = 'corpus/text8-less.txt'
+    filepath = '../Emotion.csv'
 
     x_raw, y_raw, vocab, word2id = load(filepath, window_size, vocab_size)
     vocab_size = len(vocab)
