@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM, NNLM Models 분석">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM 구현.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NPLM 구현">
+  <component name="RunManager" selected="Python.NPLM직접구현">
     <configuration name="NNLM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,9 +109,6 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -131,9 +128,6 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -217,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NPLM 구현" />
         <item itemvalue="Python.NPLM직접구현" />
+        <item itemvalue="Python.NPLM 구현" />
         <item itemvalue="Python.NNLM" />
         <item itemvalue="Python.NetworkX 연습" />
         <item itemvalue="Python.custom_dataset" />
@@ -257,13 +251,7 @@
       <workItem from="1642402574281" duration="4825000" />
       <workItem from="1642494507672" duration="612000" />
       <workItem from="1642570074476" duration="10550000" />
-    </task>
-    <task id="LOCAL-00013" summary="GCN data path 수정">
-      <created>1640157593823</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1640157593823</updated>
+      <workItem from="1642643277759" duration="6374000" />
     </task>
     <task id="LOCAL-00014" summary="networkX 시각화코드작성">
       <created>1640157617833</created>
@@ -601,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642581564989</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="NPLM, NNLM Models 분석">
+      <created>1642649430904</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1642649430904</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
