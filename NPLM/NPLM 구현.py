@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-device = "GPU" if torch.cuda.is_available() else "cpu"
+device = "CUDA" if torch.cuda.is_available() else "cpu"
 print(f"Using {device} device")
 
 def make_batch():

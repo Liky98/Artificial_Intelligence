@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM Models 분석">
-      <change afterPath="$PROJECT_DIR$/NPLM/NPLM 구현.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM, NNLM Models 분석">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM 구현.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +87,9 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -108,6 +109,9 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -127,6 +131,9 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -249,14 +256,7 @@
       <workItem from="1642042206429" duration="14253000" />
       <workItem from="1642402574281" duration="4825000" />
       <workItem from="1642494507672" duration="612000" />
-      <workItem from="1642570074476" duration="9568000" />
-    </task>
-    <task id="LOCAL-00012" summary="인공지능활용분석2급 사전테스트">
-      <created>1640155613155</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1640155613155</updated>
+      <workItem from="1642570074476" duration="10550000" />
     </task>
     <task id="LOCAL-00013" summary="GCN data path 수정">
       <created>1640157593823</created>
@@ -594,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642480760019</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="NPLM, NNLM Models 분석">
+      <created>1642581564988</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1642581564989</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +651,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="공식데이터셋 엑셀화 전처리" />
     <MESSAGE value="dblp JSON 파일 처리" />
     <MESSAGE value="dblp JSON 파싱시작" />
     <MESSAGE value="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기" />
@@ -669,7 +675,8 @@
     <MESSAGE value="Create DBLP NetworkX Graph&amp;Edge" />
     <MESSAGE value="NPLM Models" />
     <MESSAGE value="NPLM Models 분석" />
-    <option name="LAST_COMMIT_MESSAGE" value="NPLM Models 분석" />
+    <MESSAGE value="NPLM, NNLM Models 분석" />
+    <option name="LAST_COMMIT_MESSAGE" value="NPLM, NNLM Models 분석" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
