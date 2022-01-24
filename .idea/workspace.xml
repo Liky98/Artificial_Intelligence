@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM, NNLM Models 분석">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM, NNLM Models 최종 분석">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM 구현.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +255,7 @@
       <workItem from="1642494507672" duration="612000" />
       <workItem from="1642570074476" duration="10550000" />
       <workItem from="1642643277759" duration="6388000" />
-      <workItem from="1642749514660" duration="4314000" />
-    </task>
-    <task id="LOCAL-00015" summary="코드 Test">
-      <created>1640236312367</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1640236312367</updated>
+      <workItem from="1642749514660" duration="4435000" />
     </task>
     <task id="LOCAL-00016" summary="Update">
       <created>1640844057850</created>
@@ -600,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642656770771</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="NPLM, NNLM Models 최종 분석">
+      <created>1642754576048</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1642754576048</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +650,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dblp JSON 파일 처리" />
     <MESSAGE value="dblp JSON 파싱시작" />
     <MESSAGE value="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기" />
     <MESSAGE value="분석" />
@@ -675,7 +674,8 @@
     <MESSAGE value="NPLM Models" />
     <MESSAGE value="NPLM Models 분석" />
     <MESSAGE value="NPLM, NNLM Models 분석" />
-    <option name="LAST_COMMIT_MESSAGE" value="NPLM, NNLM Models 분석" />
+    <MESSAGE value="NPLM, NNLM Models 최종 분석" />
+    <option name="LAST_COMMIT_MESSAGE" value="NPLM, NNLM Models 최종 분석" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
