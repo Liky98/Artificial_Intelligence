@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM, NNLM Models 최종 분석">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Pytorch 라이브러리">
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +109,9 @@
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -256,13 +259,7 @@
       <workItem from="1642570074476" duration="10550000" />
       <workItem from="1642643277759" duration="6388000" />
       <workItem from="1642749514660" duration="4435000" />
-    </task>
-    <task id="LOCAL-00016" summary="Update">
-      <created>1640844057850</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1640844057850</updated>
+      <workItem from="1643002102007" duration="1315000" />
     </task>
     <task id="LOCAL-00017" summary="Update">
       <created>1640848524004</created>
@@ -600,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642754576048</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Pytorch 라이브러리">
+      <created>1643002139686</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1643002139686</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +654,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dblp JSON 파싱시작" />
     <MESSAGE value="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기" />
     <MESSAGE value="분석" />
     <MESSAGE value="최종 전처리 분할 데이터셋 제작" />
@@ -675,7 +678,8 @@
     <MESSAGE value="NPLM Models 분석" />
     <MESSAGE value="NPLM, NNLM Models 분석" />
     <MESSAGE value="NPLM, NNLM Models 최종 분석" />
-    <option name="LAST_COMMIT_MESSAGE" value="NPLM, NNLM Models 최종 분석" />
+    <MESSAGE value="Pytorch 라이브러리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pytorch 라이브러리" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
