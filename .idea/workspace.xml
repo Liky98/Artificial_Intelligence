@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Pytorch 라이브러리">
-      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Skip-gram">
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Hierarchical Softmax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Negative Sampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/word2vec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/A Neural  Probabilistic Language Model/NNLM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/A Neural  Probabilistic Language Model/NNLM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPLM/NPLM직접구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/NPLM직접구현.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/중반조지기.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/etc/중반조지기.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/초반다지기.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/etc/초반다지기.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/초중반다지기.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/etc/초중반다지기.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/파이토치_CUDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/etc/파이토치_CUDA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +89,44 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\etc" />
+      <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\NLP" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\NetworkX" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\dblp" />
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NPLM 구현">
-    <configuration name="NNLM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CBOW">
+    <configuration name="CBOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/A Neural  Probabilistic Language Model/NNLM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NPLM 구현 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/NPLM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,20 +179,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NetworkX 연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Skip-gram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/NetworkX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,35 +220,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="custom_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/cogdl-master/examples/custom_dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CBOW" />
+        <item itemvalue="Python.NPLM 구현 (1)" />
+        <item itemvalue="Python.Skip-gram" />
         <item itemvalue="Python.NPLM 구현" />
         <item itemvalue="Python.NPLM직접구현" />
-        <item itemvalue="Python.NNLM" />
-        <item itemvalue="Python.NetworkX 연습" />
-        <item itemvalue="Python.custom_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +264,7 @@
       <workItem from="1642570074476" duration="10550000" />
       <workItem from="1642643277759" duration="6388000" />
       <workItem from="1642749514660" duration="4435000" />
-      <workItem from="1643002102007" duration="1315000" />
-    </task>
-    <task id="LOCAL-00017" summary="Update">
-      <created>1640848524004</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1640848524004</updated>
+      <workItem from="1643002102007" duration="5642000" />
     </task>
     <task id="LOCAL-00018" summary="임베딩 데이터셋 추출 및 정제">
       <created>1641191032362</created>
@@ -604,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643002139686</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Skip-gram">
+      <created>1643084211329</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1643084211329</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기" />
     <MESSAGE value="분석" />
     <MESSAGE value="최종 전처리 분할 데이터셋 제작" />
     <MESSAGE value="Revert &quot;정제된 새로운 json 파일 추가/ 빈 속성값 제거 직전&quot;&#10;&#10;This reverts commit fc5e479f" />
@@ -679,7 +683,8 @@
     <MESSAGE value="NPLM, NNLM Models 분석" />
     <MESSAGE value="NPLM, NNLM Models 최종 분석" />
     <MESSAGE value="Pytorch 라이브러리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pytorch 라이브러리" />
+    <MESSAGE value="Skip-gram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skip-gram" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
