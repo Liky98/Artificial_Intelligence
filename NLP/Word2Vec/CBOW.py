@@ -3,7 +3,7 @@ import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from torch.autograd import Variable
+from torch.autograd import Variable #자동미분
 
 torch.manual_seed(1)
 context_size = 2  # {w_i-2 ... w_i ... w_i+2}
@@ -41,38 +41,35 @@ for i in range(2, len(raw_text) - 2):
 class CBOW(nn.Module):
     def __init__(self, vocab_size, embedding_dim):
         super(CBOW, self).__init__()
-        self.embeddings = nn.Embedding(vocab_size, embedding_dim)
+        self.embeddings = nn.Embedding(vocab_size, embedding_dim) #임베딩차원 설정
         self.proj = nn.Linear(embedding_dim, 128)
         self.output = nn.Linear(128, vocab_size)
 
     def forward(self, inputs):
-        embeds = sum(self.embeddings(inputs)).view(1, -1)
-        out = F.relu(self.proj(embeds))
+        out = sum(self.embeddings(inputs)).view(1, -1)  #단어 사이즈넣으면 [,,,,,,,] 형식으로 넣음
+        out = F.relu(self.proj(out))
         out = self.output(out)
-        nll_prob = F.log_softmax(out, dim=-1)
-        return nll_prob
-
+        out = F.log_softmax(out, dim=-1)
+        return out
 
 model = CBOW(vocab_size, embedding_dim)
 optimizer = optim.SGD(model.parameters(), lr=0.001)
 
 losses = []
-loss_function = nn.NLLLoss()
 
 for epoch in range(100):
     total_loss = 0
     for context, target in data:
-        context_vector = make_context_vector(context, word_to_idx)
-
-        # Remember PyTorch accumulates gradients; zero them out
         model.zero_grad()
 
-        nll_prob = model(context_vector)
-        loss = loss_function(nll_prob, Variable(torch.tensor([word_to_idx[target]])))
+        context_vector = make_context_vector(context, word_to_idx) #torch형식으로 만들기
+        context_vector =
 
-        # backpropagation
+        output = model(context_vector)
+        #loss = nn.CrossEntropyLoss(output, Variable(torch.tensor([word_to_idx[target]])))
+        loss = nn.CrossEntropyLoss(output, target)
+
         loss.backward()
-        # update the parameters
         optimizer.step()
 
         total_loss += loss.item()
