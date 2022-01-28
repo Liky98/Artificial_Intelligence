@@ -19,6 +19,7 @@ He was awarded the academic awards from the graduate school of Chosun University
 
 def make_context_vector(context, word_to_idx):
     idxs = [word_to_idx[w] for w in context]
+    print(idxs)
     return torch.tensor(idxs, dtype=torch.long)
 
 vocab = set(raw_text) #리스트형식으로 만듬
@@ -56,19 +57,20 @@ model = CBOW(vocab_size, embedding_dim)
 optimizer = optim.SGD(model.parameters(), lr=0.001)
 
 losses = []
-
+loss_function = nn.NLLLoss()
 for epoch in range(100):
     total_loss = 0
     for context, target in data:
         model.zero_grad()
 
         context_vector = make_context_vector(context, word_to_idx) #torch형식으로 만들기
-        context_vector =
+        #context_vector =
 
         output = model(context_vector)
         #loss = nn.CrossEntropyLoss(output, Variable(torch.tensor([word_to_idx[target]])))
-        loss = nn.CrossEntropyLoss(output, target)
-
+        #loss = nn.CrossEntropyLoss(output, target)
+        #loss = nn.NLLLoss(output, Variable(torch.tensor([word_to_idx[target]])))
+        loss = loss_function(output, Variable(torch.tensor([word_to_idx[target]])))
         loss.backward()
         optimizer.step()
 
