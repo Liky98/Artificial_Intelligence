@@ -80,7 +80,7 @@ if __name__ == '__main__':
         # output : [batch_size, n_class], target_batch : [batch_size]
         #손실 함수는 (output, target)을 한 쌍(pair)의 입력으로 받아,
         #출력(output)이 정답(target)으로부터 얼마나 멀리 떨어져있는지 추정하는 값을 계산함.
-        loss = criterion(output, target_batch)
+        loss = nn.CrossEntropyLoss(output, target_batch)
 
         if (epoch + 1) % 1000 == 0:
             print('Epoch:', '%04d' % (epoch + 1), 'cost =', '{:.6f}'.format(loss))
