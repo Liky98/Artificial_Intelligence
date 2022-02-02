@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NLP">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CBOW">
+  <component name="RunManager" selected="Python.CBOW_작성">
     <configuration name="CBOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +96,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CBOW_작성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW_작성.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,28 +159,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/NPLM 구현.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NPLM직접구현" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/NPLM직접구현.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CBOW_작성" />
         <item itemvalue="Python.CBOW" />
         <item itemvalue="Python.NPLM 구현 (1)" />
         <item itemvalue="Python.Skip-gram" />
         <item itemvalue="Python.NPLM 구현" />
-        <item itemvalue="Python.NPLM직접구현" />
       </list>
     </recent_temporary>
   </component>
@@ -260,35 +256,8 @@
       <workItem from="1642643277759" duration="6388000" />
       <workItem from="1642749514660" duration="4435000" />
       <workItem from="1643002102007" duration="7447000" />
-      <workItem from="1643181203574" duration="3189000" />
-    </task>
-    <task id="LOCAL-00019" summary="공식 데이터셋 다운 및 분ㅅ넉">
-      <created>1641192205426</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1641192205426</updated>
-    </task>
-    <task id="LOCAL-00020" summary="공식 데이터셋 다운 및 분석">
-      <created>1641199445898</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1641199445898</updated>
-    </task>
-    <task id="LOCAL-00021" summary="공식 데이터셋 엑셀형식으로 전처리">
-      <created>1641276347270</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1641276347270</updated>
-    </task>
-    <task id="LOCAL-00022" summary="dblp json 분석시작">
-      <created>1641280455552</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1641280455552</updated>
+      <workItem from="1643181203574" duration="6292000" />
+      <workItem from="1643351272938" duration="5238000" />
     </task>
     <task id="LOCAL-00023" summary="공식데이터셋 엑셀화 전처리">
       <created>1641280800362</created>
@@ -605,7 +574,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643168528115</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="CBOW">
+      <created>1643259024322</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1643259024322</updated>
+    </task>
+    <task id="LOCAL-00069" summary="CBOW">
+      <created>1643352082958</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1643352082958</updated>
+    </task>
+    <task id="LOCAL-00070" summary="CBOW">
+      <created>1643612366722</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1643612366722</updated>
+    </task>
+    <task id="LOCAL-00071" summary="NPLM">
+      <created>1643694745780</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1643694745780</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,8 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="최종 전처리 분할 데이터셋 제작" />
-    <MESSAGE value="Revert &quot;정제된 새로운 json 파일 추가/ 빈 속성값 제거 직전&quot;&#10;&#10;This reverts commit fc5e479f" />
     <MESSAGE value="big data push" />
     <MESSAGE value="DBLP 전처리 완성직전" />
     <MESSAGE value="빅데이터 테스트" />
@@ -680,7 +675,9 @@
     <MESSAGE value="Pytorch 라이브러리" />
     <MESSAGE value="Skip-gram" />
     <MESSAGE value="NLP" />
-    <option name="LAST_COMMIT_MESSAGE" value="NLP" />
+    <MESSAGE value="CBOW" />
+    <MESSAGE value="NPLM" />
+    <option name="LAST_COMMIT_MESSAGE" value="NPLM" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
