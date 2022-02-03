@@ -6,7 +6,7 @@ import torch.optim as optim
 from torch.autograd import Variable #자동미분
 
 torch.manual_seed(1)
-context_size = 2  # {w_i-2 ... w_i ... w_i+2}
+#context_size = 2  # {w_i-2 ... w_i ... w_i+2}
 embedding_dim = 10
 
 raw_text = """
@@ -21,7 +21,7 @@ def make_context_vector(context, word_to_idx): #텐서로 변환
     idxs = [word_to_idx[w] for w in context]
     return torch.tensor(idxs, dtype=torch.long)
 
-vocab = set(raw_text) #리스트형식으로 만듬
+vocab = set(raw_text) #리스트형식 > 딕셔너리 형식으로 만듬
 vocab_size = len(vocab) #47개 있음.
 
 #딕셔너리 형태로 만들기
@@ -46,10 +46,10 @@ class CBOW(nn.Module):
         self.output = nn.Linear(128, vocab_size)
 
     def forward(self, inputs):
-        out = self.embeddings(inputs) #단어 사이즈넣으면 [,,,,,,,] 형식으로 넣음
+        out = sum(self.embeddings(inputs)).view(1, -1) #단어 사이즈넣으면 [,,,,,,,] 형식으로 넣음
         out = F.relu(self.proj(out))
         out = self.output(out)
-        out = F.log_softmax(out)
+        out = F.log_softmax(out, dim=-1)
         return out
 
 model = CBOW(vocab_size, embedding_dim)
@@ -67,12 +67,7 @@ for epoch in range(100):
         input = make_context_vector(context, word_to_idx)  # torch형식으로 만들기 > tensor[n,n,n,n]
 
         output = model(input)
-        #loss = nn.CrossEntropyLoss(output, Variable(torch.tensor([word_to_idx[target]])))
-        #loss = loss_function1(output, target)
-        #loss = loss_function1(output, Variable(torch.tensor([word_to_idx[target]])))
-
-        loss = loss_function1(output, torch.tensor(target, dtype=torch.long))
-
+        loss = loss_function(output, Variable(torch.tensor([word_to_idx[target]])))
         loss.backward()
         optimizer.step()
 
@@ -80,6 +75,7 @@ for epoch in range(100):
 
     losses.append(total_loss)
 
+print(losses)
 print("*************************************************************************")
 
 context = ['Chang', 'Choi', 'currently', 'an']
@@ -88,7 +84,4 @@ a = model(context_vector).data.numpy()
 print('Raw text: {}\n'.format(' '.join(raw_text)))
 print('Test Context: {}\n'.format(context))
 max_idx = np.argmax(a)
-print(context_vector)
-print(max_idx)
-print(len(idx_to_word))
 print('Prediction: {}'.format(idx_to_word[max_idx]))
