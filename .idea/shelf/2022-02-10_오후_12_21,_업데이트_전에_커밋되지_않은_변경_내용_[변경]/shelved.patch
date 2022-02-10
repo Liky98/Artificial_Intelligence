@@ -1,0 +1,388 @@
+Index: etc/temp파일.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/etc/temp파일.py b/etc/temp파일.py
+new file mode 100644
+--- /dev/null	(date 1643867485289)
++++ b/etc/temp파일.py	(date 1643867485289)
+@@ -0,0 +1,20 @@
++import numpy as np
++import torch
++a = [[1] for _ in range(10)]
++print(np.shape(a))
++print(a)
++a = torch.tensor(a)
++print(a.shape)
++a = a.view(1,-1)
++print(a.shape)
++print(a)
++b = sum(a)
++print(b)
++print(b.shape)
++
++input = torch.ones(100)
++input = input.view(10,10)
++print(input)
++print(sum(input).shape)
++embeded_vector = sum(input).view(1, -1)  # (1,128)
++embeded_vector
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e494956c-d2e8-4cdc-bb11-e1793d5495aa\" name=\"변경\" comment=\"NPLM\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FlaskConsoleOptions\" custom-start-script=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\">\r\n    <envs>\r\n      <env key=\"FLASK_APP\" value=\"app\" />\r\n    </envs>\r\n    <option name=\"myCustomStartScript\" value=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\" />\r\n    <option name=\"myEnvs\">\r\n      <map>\r\n        <entry key=\"FLASK_APP\" value=\"app\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"SOFT\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/Graph Embedding/NetworkX/DBLP_NetworkEmbedding.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/Graph Embedding/NetworkX/json_open.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/.gitignore\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/Graph Embedding/NetworkX/NetworkX 연습.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/Graph Embedding/GCN/데이터셋분석/남규형이준네트워크저장및로드.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"22GjcdoWzAP9t7RRdaTBPYE2T9k\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/Graph Embedding/데이터셋분석\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\Graph Embedding\\데이터셋분석\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\etc\" />\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\NLP\" />\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\Graph Embedding\\NetworkX\" />\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\Graph Embedding\\dblp\" />\r\n      <recent name=\"C:\\Users\\LeeKihoon\\PycharmProjects\\KKK\\Graph Embedding\\데이터셋분석\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.CBOW_작성\">\r\n    <configuration name=\"CBOW\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/NLP/Word2Vec\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/NLP/Word2Vec/CBOW.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"CBOW_작성\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/NLP/Word2Vec\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/NLP/Word2Vec/CBOW_작성.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"NPLM 구현 (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/NLP/NPLM\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"NPLM 구현\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/NPLM\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/NPLM/NPLM 구현.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Skip-gram\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/NLP/Word2Vec\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"KKK\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.CBOW_작성\" />\r\n        <item itemvalue=\"Python.CBOW\" />\r\n        <item itemvalue=\"Python.NPLM 구현 (1)\" />\r\n        <item itemvalue=\"Python.Skip-gram\" />\r\n        <item itemvalue=\"Python.NPLM 구현\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"애플리케이션 수준\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\r\n      <changelist id=\"e494956c-d2e8-4cdc-bb11-e1793d5495aa\" name=\"변경\" comment=\"\" />\r\n      <created>1639470898620</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1639470898620</updated>\r\n      <workItem from=\"1639470899888\" duration=\"7000\" />\r\n      <workItem from=\"1639551313688\" duration=\"2618000\" />\r\n      <workItem from=\"1639632084010\" duration=\"3433000\" />\r\n      <workItem from=\"1639639425693\" duration=\"2657000\" />\r\n      <workItem from=\"1639643712869\" duration=\"712000\" />\r\n      <workItem from=\"1639655662120\" duration=\"3089000\" />\r\n      <workItem from=\"1640074774010\" duration=\"35000\" />\r\n      <workItem from=\"1640148482374\" duration=\"6182000\" />\r\n      <workItem from=\"1640155803993\" duration=\"122000\" />\r\n      <workItem from=\"1640155951376\" duration=\"8053000\" />\r\n      <workItem from=\"1640241788104\" duration=\"3192000\" />\r\n      <workItem from=\"1640245364270\" duration=\"1756000\" />\r\n      <workItem from=\"1640843070520\" duration=\"38956000\" />\r\n      <workItem from=\"1641446365568\" duration=\"3425000\" />\r\n      <workItem from=\"1641453080966\" duration=\"6019000\" />\r\n      <workItem from=\"1641460568572\" duration=\"2548000\" />\r\n      <workItem from=\"1641528599946\" duration=\"11931000\" />\r\n      <workItem from=\"1641884139968\" duration=\"1521000\" />\r\n      <workItem from=\"1641886392168\" duration=\"498000\" />\r\n      <workItem from=\"1641886903167\" duration=\"11783000\" />\r\n      <workItem from=\"1642042206429\" duration=\"14253000\" />\r\n      <workItem from=\"1642402574281\" duration=\"4825000\" />\r\n      <workItem from=\"1642494507672\" duration=\"612000\" />\r\n      <workItem from=\"1642570074476\" duration=\"10550000\" />\r\n      <workItem from=\"1642643277759\" duration=\"6388000\" />\r\n      <workItem from=\"1642749514660\" duration=\"4435000\" />\r\n      <workItem from=\"1643002102007\" duration=\"7447000\" />\r\n      <workItem from=\"1643181203574\" duration=\"6292000\" />\r\n      <workItem from=\"1643351272938\" duration=\"5238000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"공식데이터셋 엑셀화 전처리\">\r\n      <created>1641280800362</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641280800362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"db\">\r\n      <created>1641282474975</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641282474975</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"dblp JSON 파일 처리\">\r\n      <created>1641282517716</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641282517716</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"dblp JSON 파일 처리\">\r\n      <created>1641286018333</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641286018334</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"dblp JSON 파싱시작\">\r\n      <created>1641372463044</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641372463044</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"dblp JSON 1차 전처리 / 필수 항목 있는 것만 남기기\">\r\n      <created>1641462695306</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641462695307</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"분석\">\r\n      <created>1641530858115</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641530858115</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"최종 전처리 분할 데이터셋 제작\">\r\n      <created>1641531273299</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641531273299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"Revert &quot;정제된 새로운 json 파일 추가/ 빈 속성값 제거 직전&quot;&#10;&#10;This reverts commit fc5e479f\">\r\n      <created>1641819806514</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641819806514</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"big data push\">\r\n      <created>1641823259337</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641823259337</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"big data push\">\r\n      <created>1641823800076</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641823800076</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"DBLP 전처리 완성직전\">\r\n      <created>1641823893731</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641823893731</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"DBLP 전처리 완성직전\">\r\n      <created>1641823973833</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641823973833</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"빅데이터 테스트\">\r\n      <created>1641824044046</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641824044046</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"ignore 테스트\">\r\n      <created>1641824284926</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641824284926</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"etc.\">\r\n      <created>1641824634125</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641824634125</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"최종 DBLP 데이터셋 구축 완료\">\r\n      <created>1641883346495</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641883346495</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"폴더 변경/ 작업분류\">\r\n      <created>1641884165547</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641884165547</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"폴더 변경/ 작업분류\">\r\n      <created>1641884174305</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641884174305</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"stellargraph 연습\">\r\n      <created>1641967187894</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641967187894</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"NetworkX 제작 테스트\">\r\n      <created>1641977959481</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1641977959481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00044\" summary=\"gitignore 추가\">\r\n      <created>1642057409740</created>\r\n      <option name=\"number\" value=\"00044\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057409740</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00045\" summary=\"gitignore 추가\">\r\n      <created>1642057479846</created>\r\n      <option name=\"number\" value=\"00045\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057479846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00046\" summary=\"gitignore 추가\">\r\n      <created>1642057525043</created>\r\n      <option name=\"number\" value=\"00046\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057525043</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00047\" summary=\"gitignore 추가\">\r\n      <created>1642057644453</created>\r\n      <option name=\"number\" value=\"00047\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057644453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00048\" summary=\"인공지능활용분석2급\">\r\n      <created>1642057755841</created>\r\n      <option name=\"number\" value=\"00048\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057755841</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00049\" summary=\"gitignore 추가\">\r\n      <created>1642057896929</created>\r\n      <option name=\"number\" value=\"00049\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057896929</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00050\" summary=\"dblp 그래프 분석\">\r\n      <created>1642057993811</created>\r\n      <option name=\"number\" value=\"00050\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642057993811</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00051\" summary=\"dblp 그래프 분석\">\r\n      <created>1642058034514</created>\r\n      <option name=\"number\" value=\"00051\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642058034514</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00052\" summary=\"dblp 그래프 분석\">\r\n      <created>1642058115435</created>\r\n      <option name=\"number\" value=\"00052\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642058115435</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00053\" summary=\"dblp 그래프 분석 추가\">\r\n      <created>1642061953992</created>\r\n      <option name=\"number\" value=\"00053\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642061953993</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00054\" summary=\"DBLP NetworkX Graph 제작 및 Edge 생성\">\r\n      <created>1642404224548</created>\r\n      <option name=\"number\" value=\"00054\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642404224548</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00055\" summary=\"git ignore 수정\">\r\n      <created>1642406733904</created>\r\n      <option name=\"number\" value=\"00055\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642406733905</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00056\" summary=\"git ignore 수정\">\r\n      <created>1642406764443</created>\r\n      <option name=\"number\" value=\"00056\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642406764443</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00057\" summary=\"git ignore 수정\">\r\n      <created>1642406782234</created>\r\n      <option name=\"number\" value=\"00057\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642406782234</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00058\" summary=\"Create DBLP NetworkX Graph&amp;Edge\">\r\n      <created>1642407134173</created>\r\n      <option name=\"number\" value=\"00058\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642407134173</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00059\" summary=\"NPLM Models\">\r\n      <created>1642407172370</created>\r\n      <option name=\"number\" value=\"00059\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642407172370</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00060\" summary=\"NPLM Models 분석\">\r\n      <created>1642480760019</created>\r\n      <option name=\"number\" value=\"00060\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642480760019</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00061\" summary=\"NPLM, NNLM Models 분석\">\r\n      <created>1642581564988</created>\r\n      <option name=\"number\" value=\"00061\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642581564989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00062\" summary=\"NPLM, NNLM Models 분석\">\r\n      <created>1642649430904</created>\r\n      <option name=\"number\" value=\"00062\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642649430904</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00063\" summary=\"NPLM, NNLM Models 분석\">\r\n      <created>1642656770771</created>\r\n      <option name=\"number\" value=\"00063\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642656770771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00064\" summary=\"NPLM, NNLM Models 최종 분석\">\r\n      <created>1642754576048</created>\r\n      <option name=\"number\" value=\"00064\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1642754576048</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00065\" summary=\"Pytorch 라이브러리\">\r\n      <created>1643002139686</created>\r\n      <option name=\"number\" value=\"00065\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643002139686</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00066\" summary=\"Skip-gram\">\r\n      <created>1643084211329</created>\r\n      <option name=\"number\" value=\"00066\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643084211329</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00067\" summary=\"NLP\">\r\n      <created>1643168528115</created>\r\n      <option name=\"number\" value=\"00067\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643168528115</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00068\" summary=\"CBOW\">\r\n      <created>1643259024322</created>\r\n      <option name=\"number\" value=\"00068\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643259024322</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00069\" summary=\"CBOW\">\r\n      <created>1643352082958</created>\r\n      <option name=\"number\" value=\"00069\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643352082958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00070\" summary=\"CBOW\">\r\n      <created>1643612366722</created>\r\n      <option name=\"number\" value=\"00070\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643612366722</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00071\" summary=\"NPLM\">\r\n      <created>1643694745780</created>\r\n      <option name=\"number\" value=\"00071\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1643694745780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"72\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"bf0b28b2-a66e-4f81-9271-76e0d26a6e31\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"bf0b28b2-a66e-4f81-9271-76e0d26a6e31\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"big data push\" />\r\n    <MESSAGE value=\"DBLP 전처리 완성직전\" />\r\n    <MESSAGE value=\"빅데이터 테스트\" />\r\n    <MESSAGE value=\"ignore 테스트\" />\r\n    <MESSAGE value=\"etc.\" />\r\n    <MESSAGE value=\"최종 DBLP 데이터셋 구축 완료\" />\r\n    <MESSAGE value=\"폴더 변경/ 작업분류\" />\r\n    <MESSAGE value=\"stellargraph 연습\" />\r\n    <MESSAGE value=\"NetworkX 제작 테스트\" />\r\n    <MESSAGE value=\"인공지능활용분석2급\" />\r\n    <MESSAGE value=\"gitignore 추가\" />\r\n    <MESSAGE value=\"dblp 그래프 분석\" />\r\n    <MESSAGE value=\"dblp 그래프 분석 추가\" />\r\n    <MESSAGE value=\"DBLP NetworkX Graph 제작 및 Edge 생성\" />\r\n    <MESSAGE value=\"git ignore 수정\" />\r\n    <MESSAGE value=\"Create DBLP NetworkX Graph&amp;Edge\" />\r\n    <MESSAGE value=\"NPLM Models\" />\r\n    <MESSAGE value=\"NPLM Models 분석\" />\r\n    <MESSAGE value=\"NPLM, NNLM Models 분석\" />\r\n    <MESSAGE value=\"NPLM, NNLM Models 최종 분석\" />\r\n    <MESSAGE value=\"Pytorch 라이브러리\" />\r\n    <MESSAGE value=\"Skip-gram\" />\r\n    <MESSAGE value=\"NLP\" />\r\n    <MESSAGE value=\"CBOW\" />\r\n    <MESSAGE value=\"NPLM\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"NPLM\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/KKK$graph_dataset_.coverage\" NAME=\"graph_dataset 분석 커버리지 결과\" MODIFIED=\"1640150721867\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Graph Embedding\" />\r\n    <SUITE FILE_PATH=\"coverage/KKK$.coverage\" NAME=\" 커버리지 결과\" MODIFIED=\"1640848329727\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Graph Embedding/planetoid-master\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c31d838536d6aa85c9585000c760472504bf5926)
++++ b/.idea/workspace.xml	(date 1644209589636)
+@@ -4,9 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NPLM">
++    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Negetive sampling">
++      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram 작성.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/etc/temp파일.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -84,8 +86,8 @@
+       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.CBOW_작성">
+-    <configuration name="CBOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.Negative Sampling">
++    <configuration name="CBOW구현공부" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -95,7 +97,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW구현공부.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -104,7 +106,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="CBOW_작성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Negative Sampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -114,7 +116,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/CBOW_작성.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Negative Sampling.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -123,20 +125,17 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="NPLM 구현 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Skip-gram 작성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/NPLM" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram 작성.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -145,20 +144,17 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="NPLM 구현" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Skip-gram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/NPLM 구현.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -167,7 +163,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Skip-gram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -175,12 +171,12 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" />
++      <option name="SCRIPT_NAME" value="" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -189,20 +185,17 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
++    <configuration name="temp파일" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="KKK" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/etc" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etc/temp파일.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -213,11 +206,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.CBOW_작성" />
+-        <item itemvalue="Python.CBOW" />
+-        <item itemvalue="Python.NPLM 구현 (1)" />
++        <item itemvalue="Python.Negative Sampling" />
++        <item itemvalue="Python.Skip-gram 작성" />
++        <item itemvalue="Python.temp파일" />
++        <item itemvalue="Python.CBOW구현공부" />
+         <item itemvalue="Python.Skip-gram" />
+-        <item itemvalue="Python.NPLM 구현" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -257,28 +250,7 @@
+       <workItem from="1642749514660" duration="4435000" />
+       <workItem from="1643002102007" duration="7447000" />
+       <workItem from="1643181203574" duration="6292000" />
+-      <workItem from="1643351272938" duration="5238000" />
+-    </task>
+-    <task id="LOCAL-00023" summary="공식데이터셋 엑셀화 전처리">
+-      <created>1641280800362</created>
+-      <option name="number" value="00023" />
+-      <option name="presentableId" value="LOCAL-00023" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1641280800362</updated>
+-    </task>
+-    <task id="LOCAL-00024" summary="db">
+-      <created>1641282474975</created>
+-      <option name="number" value="00024" />
+-      <option name="presentableId" value="LOCAL-00024" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1641282474975</updated>
+-    </task>
+-    <task id="LOCAL-00025" summary="dblp JSON 파일 처리">
+-      <created>1641282517716</created>
+-      <option name="number" value="00025" />
+-      <option name="presentableId" value="LOCAL-00025" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1641282517716</updated>
++      <workItem from="1643351272938" duration="21427000" />
+     </task>
+     <task id="LOCAL-00026" summary="dblp JSON 파일 처리">
+       <created>1641286018333</created>
+@@ -602,7 +574,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1643694745780</updated>
+     </task>
+-    <option name="localTasksCounter" value="72" />
++    <task id="LOCAL-00072" summary="0202">
++      <created>1643792213494</created>
++      <option name="number" value="00072" />
++      <option name="presentableId" value="LOCAL-00072" />
++      <option name="project" value="LOCAL" />
++      <updated>1643792213494</updated>
++    </task>
++    <task id="LOCAL-00073" summary="CBOW">
++      <created>1643873101676</created>
++      <option name="number" value="00073" />
++      <option name="presentableId" value="LOCAL-00073" />
++      <option name="project" value="LOCAL" />
++      <updated>1643873101676</updated>
++    </task>
++    <task id="LOCAL-00074" summary="Negetive sampling">
++      <created>1644206834633</created>
++      <option name="number" value="00074" />
++      <option name="presentableId" value="LOCAL-00074" />
++      <option name="project" value="LOCAL" />
++      <updated>1644206834633</updated>
++    </task>
++    <option name="localTasksCounter" value="75" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -652,8 +645,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+-    <MESSAGE value="big data push" />
+-    <MESSAGE value="DBLP 전처리 완성직전" />
+     <MESSAGE value="빅데이터 테스트" />
+     <MESSAGE value="ignore 테스트" />
+     <MESSAGE value="etc." />
+@@ -675,12 +666,16 @@
+     <MESSAGE value="Pytorch 라이브러리" />
+     <MESSAGE value="Skip-gram" />
+     <MESSAGE value="NLP" />
+-    <MESSAGE value="CBOW" />
+     <MESSAGE value="NPLM" />
+-    <option name="LAST_COMMIT_MESSAGE" value="NPLM" />
++    <MESSAGE value="0202" />
++    <MESSAGE value="CBOW" />
++    <MESSAGE value="Negetive sampling" />
++    <option name="LAST_COMMIT_MESSAGE" value="Negetive sampling" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
++    <SUITE FILE_PATH="coverage/KKK$CBOW_.coverage" NAME="CBOW_작성 커버리지 결과" MODIFIED="1643860466606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/Word2Vec" />
+     <SUITE FILE_PATH="coverage/KKK$.coverage" NAME=" 커버리지 결과" MODIFIED="1640848329727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding/planetoid-master" />
++    <SUITE FILE_PATH="coverage/KKK$CBOW.coverage" NAME="CBOW구현공부 커버리지 결과" MODIFIED="1643865578576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/Word2Vec" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: NLP/Word2Vec/Skip-gram 작성.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/NLP/Word2Vec/Skip-gram 작성.py b/NLP/Word2Vec/Skip-gram 작성.py
+new file mode 100644
+--- /dev/null	(date 1643873400867)
++++ b/NLP/Word2Vec/Skip-gram 작성.py	(date 1643873400867)
+@@ -0,0 +1,82 @@
++## using pytorch
++import torch
++import torch.nn as nn
++
++example_sentence = """
++Chang Choi is currently an Assistant Professor in the Department of Computer Engineering at Gachon University, Seongnam, Korea, Since 2020. 
++He received B.S., M.S. and Ph.D. degrees in Computer Engineering from Chosun University in 2005, 2007, and 2012, respectively. 
++he was a research professor at the same university. 
++He was awarded the academic awards from the graduate school of Chosun University in 2012.
++""".split()
++
++#(1) 입력받은 문장을 단어로 쪼개고, 중복을 제거해줍니다.
++vocab = set(example_sentence)
++vocab_size = len(example_sentence)
++
++#(2) 단어 : 인덱스, 인덱스 : 단어를 가지는 딕셔너리를 선언해 줍니다.
++word_to_index = {word:index for index, word in enumerate(vocab)}
++index_to_word = {index:word for index, word in enumerate(vocab)}
++
++#(3) 학습을 위한 데이터를 생성해 줍니다.
++# convert context to index vector
++def make_context_vector(context, word_to_ix):
++  idxs = word_to_ix[context] # chang을 넣으면 몇번째 인덱스인지
++  return torch.tensor(idxs, dtype=torch.long)
++
++# make dataset function
++def make_data(sentence):
++  data = []
++  for i in range(2, len(example_sentence) - 2):
++    context = example_sentence[i]
++    target = [example_sentence[i - 2], example_sentence[i - 1], example_sentence[i + 1], example_sentence[i + 2]]
++    data.append((context, target))
++  return data
++
++data = make_data(example_sentence)
++
++#(4) Skip-Gram 모델을 정의해 줍니다.
++class SKIP_GRAM(nn.Module):
++  def __init__(self, vocab_size, embedding_dim, context_size):
++    super(SKIP_GRAM, self).__init__()
++    self.context_size = context_size
++    self.embeddings = nn.Embedding(vocab_size, embedding_dim)
++
++    self.layer1 = nn.Linear(embedding_dim, 64)
++    self.activation1 = nn.ReLU()
++
++    self.layer2 = nn.Linear(64, vocab_size * context_size)
++    self.activation2 = nn.LogSoftmax(dim = -1)
++
++  def forward(self, inputs):
++    embeded_vector = self.embeddings(inputs)
++    output = self.activation1(self.layer1(embeded_vector))
++    output = self.activation2(self.layer2(output))
++    return output.view(self.context_size,vocab_size)
++
++#(5) 모델을 선언해주고, loss function, optimizer등을 선언해줍니다.
++EMBEDDING_DIM = 128
++EPOCHS = 200
++CONTEXT_SIZE = 4
++
++model = SKIP_GRAM(vocab_size, EMBEDDING_DIM, CONTEXT_SIZE)
++loss_function = nn.NLLLoss()
++optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
++
++#(6) 학습을 진행합니다.
++for epoch in range(EPOCHS):
++    total_loss = 0
++    for context, target in data:
++        context_vector = make_context_vector(context, word_to_index)
++        log_probs = model(context_vector)
++        total_loss += loss_function(log_probs, torch.tensor([word_to_index[t] for t in target]))
++    print('epoch = ',epoch, ', loss = ',total_loss)
++    optimizer.zero_grad()
++    total_loss.backward()
++    optimizer.step()
++
++#(7) test하고 싶은 문장을 뽑고, test를 진행합니다.
++test_data = 'is'
++test_vector = make_context_vector(test_data, word_to_index)
++result = model(test_vector)
++print(f"Input : {test_data}")
++print('Prediction : ', [index_to_word[torch.argmax(r).item()] for r in result])
+\ No newline at end of file
