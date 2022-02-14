@@ -16,3 +16,7 @@ print("hello '%'입니다.")
 #%%
 potato = "감자깡도 채소인가요?"
 print(potato.replace("감자깡","감자"))
+
+#%%
+s = "hello myname"
+print("".join(i for i in s if  ord(i)>100))

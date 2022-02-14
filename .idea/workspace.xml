@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="Skip gram">
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="SGNS 구현">
+      <change afterPath="$PROJECT_DIR$/Graph Embedding/pytorch-geometric/pytorch-geometric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-Gram with Negative Sampling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/Hierarchical Softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/Hierarchical Softmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/SGNS 구현.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/SGNS 구현.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/인공지능2급시험.py" beforeDir="false" afterPath="$PROJECT_DIR$/etc/인공지능2급시험.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CBOW_작성">
+  <component name="RunManager" selected="Python.Negative Sampling">
     <configuration name="CBOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,42 +155,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NPLM 구현" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Negative Sampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NPLM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NPLM/NPLM 구현.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Skip-gram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Skip-gram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/Word2Vec/Negative Sampling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,13 +196,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytorch-geometric" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph Embedding/pytorch-geometric" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph Embedding/pytorch-geometric/pytorch-geometric.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Negative Sampling" />
+        <item itemvalue="Python.pytorch-geometric" />
         <item itemvalue="Python.CBOW_작성" />
         <item itemvalue="Python.CBOW" />
         <item itemvalue="Python.NPLM 구현 (1)" />
-        <item itemvalue="Python.Skip-gram" />
-        <item itemvalue="Python.NPLM 구현" />
       </list>
     </recent_temporary>
   </component>
@@ -263,20 +265,7 @@
       <workItem from="1643002102007" duration="7447000" />
       <workItem from="1643181203574" duration="6292000" />
       <workItem from="1643351272938" duration="5238000" />
-    </task>
-    <task id="LOCAL-00023" summary="공식데이터셋 엑셀화 전처리">
-      <created>1641280800362</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1641280800362</updated>
-    </task>
-    <task id="LOCAL-00024" summary="db">
-      <created>1641282474975</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1641282474975</updated>
+      <workItem from="1644477666736" duration="3614000" />
     </task>
     <task id="LOCAL-00025" summary="dblp JSON 파일 처리">
       <created>1641282517716</created>
@@ -607,7 +596,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643694745780</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Skip gram">
+      <created>1644464096503</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1644464096503</updated>
+    </task>
+    <task id="LOCAL-00073" summary="SGNS 구현">
+      <created>1644552719864</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1644552719864</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,8 +660,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="big data push" />
-    <MESSAGE value="DBLP 전처리 완성직전" />
     <MESSAGE value="빅데이터 테스트" />
     <MESSAGE value="ignore 테스트" />
     <MESSAGE value="etc." />
@@ -682,7 +683,9 @@
     <MESSAGE value="NLP" />
     <MESSAGE value="CBOW" />
     <MESSAGE value="NPLM" />
-    <option name="LAST_COMMIT_MESSAGE" value="NPLM" />
+    <MESSAGE value="Skip gram" />
+    <MESSAGE value="SGNS 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="SGNS 구현" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
