@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="SGNS 구현">
-      <change afterPath="$PROJECT_DIR$/Graph Embedding/pytorch-geometric/pytorch-geometric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLP/Word2Vec/Skip-Gram with Negative Sampling.py" afterDir="false" />
+    <list default="true" id="e494956c-d2e8-4cdc-bb11-e1793d5495aa" name="변경" comment="NLP">
+      <change afterPath="$PROJECT_DIR$/NLP/BERT/BERT 챗봇.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/Hierarchical Softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/Hierarchical Softmax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/Word2Vec/SGNS 구현.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Word2Vec/SGNS 구현.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인공지능2급시험.py" beforeDir="false" afterPath="$PROJECT_DIR$/etc/인공지능2급시험.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,26 @@
       <recent name="C:\Users\LeeKihoon\PycharmProjects\KKK\Graph Embedding\데이터셋분석" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Negative Sampling">
+  <component name="RunManager" selected="Python.BERT 챗봇">
+    <configuration name="BERT 챗봇" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/BERT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/BERT/BERT 챗봇.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CBOW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,32 +148,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NPLM 구현 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Negative Sampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/NPLM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP/NPLM/NPLM 구현.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Negative Sampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLP/Word2Vec" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -220,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BERT 챗봇" />
         <item itemvalue="Python.Negative Sampling" />
         <item itemvalue="Python.pytorch-geometric" />
         <item itemvalue="Python.CBOW_작성" />
         <item itemvalue="Python.CBOW" />
-        <item itemvalue="Python.NPLM 구현 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +261,8 @@
       <workItem from="1643002102007" duration="7447000" />
       <workItem from="1643181203574" duration="6292000" />
       <workItem from="1643351272938" duration="5238000" />
-      <workItem from="1644477666736" duration="3614000" />
-    </task>
-    <task id="LOCAL-00025" summary="dblp JSON 파일 처리">
-      <created>1641282517716</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1641282517716</updated>
+      <workItem from="1644477666736" duration="4246000" />
+      <workItem from="1644827379306" duration="3185000" />
     </task>
     <task id="LOCAL-00026" summary="dblp JSON 파일 처리">
       <created>1641286018333</created>
@@ -610,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644552719864</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="NLP">
+      <created>1644813556370</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1644813556370</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,12 +677,12 @@
     <MESSAGE value="NPLM, NNLM Models 최종 분석" />
     <MESSAGE value="Pytorch 라이브러리" />
     <MESSAGE value="Skip-gram" />
-    <MESSAGE value="NLP" />
     <MESSAGE value="CBOW" />
     <MESSAGE value="NPLM" />
     <MESSAGE value="Skip gram" />
     <MESSAGE value="SGNS 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="SGNS 구현" />
+    <MESSAGE value="NLP" />
+    <option name="LAST_COMMIT_MESSAGE" value="NLP" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KKK$graph_dataset_.coverage" NAME="graph_dataset 분석 커버리지 결과" MODIFIED="1640150721867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graph Embedding" />
