@@ -265,14 +265,7 @@
       <workItem from="1643351272938" duration="5238000" />
       <workItem from="1644477666736" duration="4246000" />
       <workItem from="1644827379306" duration="9046000" />
-      <workItem from="1645082272008" duration="620000" />
-    </task>
-    <task id="LOCAL-00029" summary="분석">
-      <created>1641530858115</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1641530858115</updated>
+      <workItem from="1645082272008" duration="681000" />
     </task>
     <task id="LOCAL-00030" summary="최종 전처리 분할 데이터셋 제작">
       <created>1641531273299</created>
@@ -610,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645082287110</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Seq2Seq">
+      <created>1645169266369</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1645169266369</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
