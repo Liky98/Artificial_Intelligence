@@ -1,6 +1,0 @@
-mss
-keras
-numpy
-pillow
-keyboard
-scikit-learn
