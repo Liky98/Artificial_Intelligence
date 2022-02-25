@@ -35,3 +35,4 @@ for i, letter in enumerate(string):
 
 play(result_sound)
 result_sound.export('result/%s.mp3' % string, format='mp3')
+#%%
