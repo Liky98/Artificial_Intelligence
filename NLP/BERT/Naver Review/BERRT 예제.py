@@ -113,7 +113,7 @@ for text, label in test_loader :
 print(f'Test Accuracy : {total_corrct/total_len}')
 
 #%%
-torch.save(model.state_dic(), "bert_naver_review.model")
+torch.save(model, "./bert_naver_review.pth")
 #%%
-model.load_state_dict(torch.load("bert_naver_review.model"))
+model =torch.load("bert_naver_review.model")
 model.eval()
