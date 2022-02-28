@@ -58,8 +58,9 @@ for epoch in range(1) :
 
         outputs = model(sample, labels=label)
         loss, logits = outputs
-
+        print(logits)
         predict = torch.argmax(F.softmax(logits), dim=1)
+        print(predict)
         corrct = predict.eq(label)
 
         total_corrct += corrct.sum()
@@ -68,7 +69,7 @@ for epoch in range(1) :
 
         loss.backward()
         optimizer.step()
-
+        break
         if count % 1000 ==0 :
             print(f'Epoch : {epoch+1}, Iteration : {count}')
             print(f'Train Loss : {total_loss/1000}')
@@ -77,20 +78,22 @@ for epoch in range(1) :
         count +=1
 
 model.eval()
-#%%
-torch.save(model, "./predict_of_tweet_model.pth")
-#%%
-final = []
-test_dataset = test_df["text"]
-test_dataset = DataLoader(test_dataset, batch_size=4, shuffle=False)
-#%%
-for text in test_dataset:
-    encoding_list = [tokenizer.encode(x, add_special_tokens=True) for x in text]  # 한
-    padding_list = [x + [0]*(256-len(x)) for x in encoding_list]
-
-    sample = torch.tensor(padding_list)
-    sample = sample.to(device)
-    outputs = model(sample)
-    final.append(outputs)
-
-final
+# #%%
+# torch.save(model, "./predict_of_tweet_model.pth")
+# #%%
+# final = []
+#
+# test_dataset = test_df["text"] #2,158 Rows
+#
+# #test_dataset = DataLoader(test_dataset, batch_size=2, shuffle=False)
+# for text in test_dataset:
+#     encoding_list = [tokenizer.encode(x, add_special_tokens=True) for x in text]  # 한
+#     padding_list = [x + [0]*(256-len(x)) for x in encoding_list]
+#
+#     sample = torch.tensor(padding_list)
+#     sample = sample.to(device)
+#     outputs = model(sample)
+#     print(f'output -> {outputs}')
+#     final.append(outputs)
+#
+# #final
