@@ -1,8 +1,7 @@
-import numpy as np
 import pandas as pd
 import torch
 from torch.utils.data import Dataset, DataLoader
-from pytorch_transformers import BertTokenizer, BertForSequenceClassification, BertConfig
+from pytorch_transformers import BertTokenizer, BertForSequenceClassification
 from torch.optim import Adam
 import torch.nn.functional as F
 
@@ -78,22 +77,3 @@ for epoch in range(1) :
         count +=1
 
 model.eval()
-# #%%
-# torch.save(model, "./predict_of_tweet_model.pth")
-# #%%
-# final = []
-#
-# test_dataset = test_df["text"] #2,158 Rows
-#
-# #test_dataset = DataLoader(test_dataset, batch_size=2, shuffle=False)
-# for text in test_dataset:
-#     encoding_list = [tokenizer.encode(x, add_special_tokens=True) for x in text]  # 한
-#     padding_list = [x + [0]*(256-len(x)) for x in encoding_list]
-#
-#     sample = torch.tensor(padding_list)
-#     sample = sample.to(device)
-#     outputs = model(sample)
-#     print(f'output -> {outputs}')
-#     final.append(outputs)
-#
-# #final
