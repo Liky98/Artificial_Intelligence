@@ -29,4 +29,4 @@ def return_similar_answer(input):
     train_data['score'] = train_data.apply(lambda x: cos_sim(x['embedding'], embedding), axis=1)
 
 #%%
-return_similar_answer('응아니야')
+print(return_similar_answer('안녕'))
